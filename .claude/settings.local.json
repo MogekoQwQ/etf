@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python train_rf_multi_target_backtest.py)",
+      "Bash(python -m pip list)",
+      "Bash(python -m pip install pandas numpy scikit-learn matplotlib -q)",
+      "Bash(python -c \"import pandas; print\\(''pandas ok''\\)\")",
+      "Bash(python -m pip install pandas scikit-learn matplotlib -q)",
+      "Bash(python -m pip install pandas)"
+    ]
+  }
+}

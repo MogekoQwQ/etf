@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(python run_pipeline.py --help)",
+      "Bash(python run_pipeline.py --mock-llm)",
+      "Bash(python download_etf.py)",
+      "Bash(python generate_mock_data.py)",
+      "Bash(python run_pipeline.py --skip-download --skip-factors --mock-llm)",
+      "Bash(python -m pip install matplotlib seaborn scikit-learn lightgbm xgboost pandas numpy tqdm colorama tabulate requests akshare)",
+      "Bash(python -c \"import sys; exec\\(open\\(''download_etf.py''\\).read\\(\\)\\); print\\(''Syntax check passed''\\)\")",
+      "Bash(python -m py_compile download_etf.py)",
+      "Bash(python -m py_compile scripts/download_etf.py)",
+      "Bash(python -m py_compile two_stage_backtest.py)"
+    ]
+  }
+}

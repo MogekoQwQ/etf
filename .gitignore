@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# PyCharm / IDEA
+.idea/
+
+# 虚拟环境（不提交）
+.venv/
+venv/
+
+# 操作系统垃圾
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log

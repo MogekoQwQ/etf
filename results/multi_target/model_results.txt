@@ -1,0 +1,75 @@
+
+目标: Y_next_day_return
+R^2: -0.0360, MAE: 0.0111, RMSE: 0.0159
+前10个重要特征：
+          feature  importance
+              涨跌幅    0.185916
+               振幅    0.141090
+      momentum_20    0.112906
+    volatility_20    0.112207
+   return_mean_20    0.106839
+amplitude_mean_20    0.090747
+              涨跌额    0.037002
+              换手率    0.033760
+ turnover_mean_20    0.029712
+              成交额    0.027832
+
+目标: Y_future_5d_return
+R^2: -0.0753, MAE: 0.0247, RMSE: 0.0344
+前10个重要特征：
+          feature  importance
+    volatility_20    0.138125
+               振幅    0.105614
+      momentum_20    0.100953
+amplitude_mean_20    0.088178
+              涨跌幅    0.088003
+   return_mean_20    0.076437
+ turnover_mean_20    0.062935
+   volume_mean_20    0.054612
+            MA_10    0.050172
+              换手率    0.039835
+
+目标: Y_future_10d_return
+R^2: -0.1171, MAE: 0.0357, RMSE: 0.0509
+前10个重要特征：
+          feature  importance
+    volatility_20    0.124196
+ turnover_mean_20    0.121370
+amplitude_mean_20    0.099439
+   volume_mean_20    0.098379
+      momentum_20    0.090725
+            MA_10    0.075085
+               振幅    0.058158
+   return_mean_20    0.045483
+              涨跌幅    0.043782
+              换手率    0.038893
+
+目标: Y_future_5d_vol_change
+R^2: -0.3988, MAE: 0.6135, RMSE: 1.1084
+前10个重要特征：
+          feature  importance
+    volatility_20    0.511978
+amplitude_mean_20    0.065239
+              涨跌幅    0.047656
+ turnover_mean_20    0.047221
+   volume_mean_20    0.038482
+               振幅    0.037030
+      momentum_20    0.028807
+   return_mean_20    0.026496
+              成交量    0.026034
+            MA_10    0.025329
+
+目标: Y_future_10d_vol_change
+R^2: 0.0450, MAE: 0.4311, RMSE: 0.5965
+前10个重要特征：
+          feature  importance
+    volatility_20    0.192476
+ turnover_mean_20    0.111879
+   volume_mean_20    0.110273
+amplitude_mean_20    0.098323
+            MA_10    0.058539
+      momentum_20    0.049373
+   return_mean_20    0.046063
+              成交额    0.045212
+             MA_5    0.041342
+              换手率    0.040671

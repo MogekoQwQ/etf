@@ -1,0 +1,30 @@
+{
+  "parameters": {
+    "target": "Y_future_5d_return",
+    "top_n_first": 50,
+    "top_n_final": 10,
+    "rebalancing_freq": "W",
+    "holding_days": 5,
+    "use_llm": true
+  },
+  "performance_strategy_a": {
+    "annual_return": 0.7126755285978998,
+    "annual_volatility": 0.18927801620681825,
+    "sharpe_ratio": 3.765231392847975,
+    "max_drawdown": -0.09073692345944373,
+    "win_rate": 0.6923076923076923,
+    "total_periods": 26,
+    "mean_return": 0.010732918782191346,
+    "std_return": 0.026661520120627592
+  },
+  "performance_strategy_b": {
+    "annual_return": 0.7641462219896016,
+    "annual_volatility": 0.19181269572140006,
+    "sharpe_ratio": 3.9838146224663467,
+    "max_drawdown": -0.07944308469949257,
+    "win_rate": 0.7307692307692307,
+    "total_periods": 26,
+    "mean_return": 0.011326900082242379,
+    "std_return": 0.027018552649981264
+  }
+}

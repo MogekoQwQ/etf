@@ -1,0 +1,9 @@
+{
+  "split_date": "2025-07-28",
+  "train_start": "2023-02-22",
+  "train_end": "2025-07-28",
+  "test_start": "2025-07-29",
+  "test_end": "2026-02-10",
+  "train_samples": 53343,
+  "test_samples": 13272
+}
