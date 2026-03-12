@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETF可解释性分析报告 - 2025-12-26</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f7fa;
+        }
+        .header {
+            background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .header .subtitle {
+            margin-top: 10px;
+            opacity: 0.9;
+            font-size: 16px;
+        }
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-left: 4px solid #3f51b5;
+        }
+        .section h2 {
+            color: #1a237e;
+            margin-top: 0;
+            border-bottom: 2px solid #e8eaf6;
+            padding-bottom: 10px;
+        }
+        .metrics-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .metric-card {
+            background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 10px;
+            flex: 1;
+            min-width: 150px;
+        }
+        .metric-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #1a237e;
+            margin: 10px 0;
+        }
+        .metric-label {
+            font-size: 14px;
+            color: #5c6bc0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .etf-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .etf-table th {
+            background-color: #3f51b5;
+            color: white;
+            text-align: left;
+            padding: 15px;
+            font-weight: 500;
+        }
+        .etf-table td {
+            padding: 15px;
+            border-bottom: 1px solid #e8eaf6;
+        }
+        .etf-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .etf-table tr:hover {
+            background-color: #e8eaf6;
+        }
+        .score-high { color: #4caf50; font-weight: bold; }
+        .score-medium { color: #ff9800; font-weight: bold; }
+        .score-low { color: #f44336; font-weight: bold; }
+        .explanation-box {
+            background-color: #f8f9fa;
+            border-left: 3px solid #3f51b5;
+            padding: 12px;
+            border-radius: 0 4px 4px 0;
+            font-size: 14px;
+        }
+        .factor-tag {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin: 3px;
+            font-size: 13px;
+        }
+        .risk-warning {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e8eaf6;
+            color: #757575;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .metrics-container { flex-direction: column; }
+            .metric-card { margin: 10px 0; }
+            .etf-table { display: block; overflow-x: auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ETF可解释性分析报告</h1>
+        <div class="subtitle">基于大语言模型的ETF排序解释 | 日期: 2025-12-26</div>
+    </div>
+
+    <div class="section">
+        <h2>执行摘要</h2>
+        <div class="metrics-container">
+            <div class="metric-card">
+                <div class="metric-label">ETF总数</div>
+                <div class="metric-value">10</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">报告生成时间</div>
+                <div class="metric-value">18:32</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">数据源</div>
+                <div class="metric-value">DeepSeek API</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>市场环境分析</h2>
+        <p>在2025-12-26的横截面中，ETF排序主要依据综合评分（llm_score），该评分可能综合了动量、波动率、成交量、预测收益率等多个因子。排名靠前的ETF普遍表现出较高的历史动量（momentum_20）和/或积极的短期预测收益率。</p>
+        <h3>关键因子关注度</h3>
+        <div>
+            <span class="factor-tag">momentum_20（20日动量）</span>
+            <span class="factor-tag">y_pred_Y_future_10d_return（预测未来10日收益率）</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>ETF详细排名与解释</h2>
+        <p>以下展示LLM排序前10名ETF及其解释。</p>
+        <table class="etf-table">
+            <thead>
+                <tr>
+                    <th>排名</th>
+                    <th>ETF代码</th>
+                    <th>LLM评分</th>
+                    <th>解释分析</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#1</td>
+                    <td><strong>513310</strong></td>
+                    <td class="score-high">0.950</td>
+                    <td><div class="explanation-box">排序分数最高，主要基于其较高的动量因子（momentum_20: 0.023858）和预测的未来10日收益率（y_pred_Y_future_10d_return: 0.041295）在横截面中表现突出。同时，其换手率（40.57）和成交量显著高于平均水平，显示活跃度。风险：高换手率可能伴随高波动性，且预测的未来5日波动率变化（y_pred_Y_future_5d_vol_change: 0.468571）为正，提示短期波动风险增加。</div></td>
+                </tr>
+                <tr>
+                    <td>#2</td>
+                    <td><strong>159715</strong></td>
+                    <td class="score-high">0.920</td>
+                    <td><div class="explanation-box">排序分数第二，主要得益于其较高的动量因子（momentum_20: 0.062333）和20日平均收益率（return_mean_20: 0.314）在横截面中表现强劲。风险：预测的次日收益率（y_pred_Y_next_day_return: -0.000707）为负，且预测的未来5日和10日收益率（0.003877, 0.004473）相对较低，短期上涨动能可能不足。</div></td>
+                </tr>
+                <tr>
+                    <td>#3</td>
+                    <td><strong>515700</strong></td>
+                    <td class="score-high">0.890</td>
+                    <td><div class="explanation-box">排序分数第三，主要基于其较高的动量因子（momentum_20: 0.049187）和当日强劲的涨跌幅（2.44%）。风险：预测的未来10日收益率（y_pred_Y_future_10d_return: -0.003968）为负，且预测的未来波动率变化为负（y_pred_Y_future_5d_vol_change: -0.104723），可能预示未来动能减弱或波动性降低。</div></td>
+                </tr>
+                <tr>
+                    <td>#4</td>
+                    <td><strong>516160</strong></td>
+                    <td class="score-high">0.860</td>
+                    <td><div class="explanation-box">排序分数第四，主要基于其良好的动量因子（momentum_20: 0.034641）和当日较高的涨跌幅（2.31%）。风险：预测的未来5日和10日收益率（0.001612, 0.001459）在横截面中相对较低，未来收益潜力可能有限。</div></td>
+                </tr>
+                <tr>
+                    <td>#5</td>
+                    <td><strong>512580</strong></td>
+                    <td class="score-high">0.830</td>
+                    <td><div class="explanation-box">排序分数第五，主要基于其当日较高的涨跌幅（2.03%）和预测的次日收益率（y_pred_Y_next_day_return: 0.00188）为正。风险：动量因子（momentum_20: 0.021944）和20日平均收益率（return_mean_20: 0.1155）在横截面中相对较低，且换手率（1.82）极低，流动性风险较高。</div></td>
+                </tr>
+                <tr>
+                    <td>#6</td>
+                    <td><strong>518850</strong></td>
+                    <td class="score-high">0.800</td>
+                    <td><div class="explanation-box">排序分数第六，主要基于其较高的动量因子（momentum_20: 0.064753）和20日平均收益率（return_mean_20: 0.3175）。风险：预测的次日收益率（y_pred_Y_next_day_return: -0.000405）为负，且当日振幅（0.57%）较低，显示短期波动性小但可能缺乏爆发力。</div></td>
+                </tr>
+                <tr>
+                    <td>#7</td>
+                    <td><strong>560500</strong></td>
+                    <td class="score-medium">0.770</td>
+                    <td><div class="explanation-box">排序分数第七，主要基于其较高的动量因子（momentum_20: 0.065789）和20日平均收益率（return_mean_20: 0.324）。风险：预测的未来5日收益率（y_pred_Y_future_5d_return: -5e-05）接近零，短期前景平淡，且预测的未来波动率变化较大（y_pred_Y_future_5d_vol_change: 0.375073）。</div></td>
+                </tr>
+                <tr>
+                    <td>#8</td>
+                    <td><strong>159628</strong></td>
+                    <td class="score-medium">0.740</td>
+                    <td><div class="explanation-box">排序分数第八，主要基于其尚可的动量因子（momentum_20: 0.044926）。风险：当日涨跌幅为负（-0.22%），且预测的未来5日收益率（y_pred_Y_future_5d_return: -0.000861）为负，显示短期表现疲软。</div></td>
+                </tr>
+                <tr>
+                    <td>#9</td>
+                    <td><strong>159201</strong></td>
+                    <td class="score-medium">0.710</td>
+                    <td><div class="explanation-box">排序分数第九，主要基于其成交量巨大，流动性好。风险：动量因子（momentum_20: 0.036878）和预测的未来收益率（y_pred_Y_future_5d_return: -0.000704）在横截面中表现一般，缺乏强劲的上涨驱动因子。</div></td>
+                </tr>
+                <tr>
+                    <td>#10</td>
+                    <td><strong>512100</strong></td>
+                    <td class="score-medium">0.680</td>
+                    <td><div class="explanation-box">排序分数最低，主要因其预测的未来5日和10日收益率（-0.001208, -0.005689）均为负值，在横截面中未来收益预期最差。风险：尽管流动性好，但负面的收益预测是主要拖累因素。</div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>风险提示与注意事项</h2>
+        <div class="risk-warning">
+            <p><strong>重要风险提示：</strong></p>
+            <p>整体需注意：1) 多个ETF的预测次日或短期收益率为负或接近零，提示短期上涨动能可能不足。2) 部分高排名ETF换手率极高（如513310），可能伴随高波动性和流动性风险。3) 预测的未来波动率变化（vol_change）有正有负，显示未来波动环境可能分化，需关注波动风险。所有解释仅基于当前交易日提供的横截面数据，不构成未来表现预测。</p>
+        </div>
+        <p><strong>LLM分析的风险考虑：</strong> 整体需注意：1) 多个ETF的预测次日或短期收益率为负或接近零，提示短期上涨动能可能不足。2) 部分高排名ETF换手率极高（如513310），可能伴随高波动性和流动性风险。3) 预测的未来波动率变化（vol_change）有正有负，显示未来波动环境可能分化，需关注波动风险。所有解释仅基于当前交易日提供的横截面数据，不构成未来表现预测。</p>
+    </div>
+
+    <div class="footer">
+        <p>报告生成系统：ETF两阶段优选研究框架 - LLM可解释性模块</p>
+        <p>版本: 1.0 | 生成时间: 2026-03-10 18:32:29</p>
+    </div>
+</body>
+</html>

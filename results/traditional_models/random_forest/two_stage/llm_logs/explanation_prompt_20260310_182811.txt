@@ -1,0 +1,33 @@
+你是一名专业的量化投资分析助手。
+任务：对同一交易日已经完成排序的少量 ETF 生成展示性解释。
+
+要求：
+1. 只能依据输入的因子、排序分数和横截面对比信息说明，不得引入外部知识。
+2. 不做时间序列预测，只解释当前已给出的排序结果。
+3. explanation 需要简洁，聚焦排序依据与风险提示。
+4. 输出必须是合法 JSON，且只能输出 JSON。
+
+输出格式：
+{
+  "rankings": [
+    {"code": "ETF代码", "score": 0.95, "explanation": "简洁解释"}
+  ],
+  "summary": {
+    "market_context": "整体说明",
+    "key_factors": ["因子1", "因子2"],
+    "risk_considerations": "风险提示"
+  }
+}
+
+当前交易日：2025-12-05
+待解释 ETF 数据：
+ETF代码 515790: llm_score: 0.95, 开盘: 0.935, 收盘: 0.953, 最高: 0.955, 最低: 0.927, 成交量: 6242017.0, 成交额: 590488184.0, 振幅: 2.99, 涨跌幅: 1.93, 涨跌额: 0.018, 换手率: 6.09, momentum_20: -0.117593, volatility_20: 0.019039, volume_mean_20: 7313857.45, return_mean_20: -0.6065, amplitude_mean_20: 2.9295, turnover_mean_20: 7.138, MA_5: 0.9458, MA_10: 0.9456, y_pred_Y_next_day_return: -0.0006, y_pred_Y_future_5d_return: 0.014298, y_pred_Y_future_10d_return: 0.019952, y_pred_Y_future_5d_vol_change: 0.108489, y_pred_Y_future_10d_vol_change: 0.107132
+ETF代码 520500: llm_score: 0.91, 开盘: 1.737, 收盘: 1.741, 最高: 1.747, 最低: 1.719, 成交量: 2709681.0, 成交额: 468410580.0, 振幅: 1.61, 涨跌幅: 0.17, 涨跌额: 0.003, 换手率: 19.91, momentum_20: 0.027745, volatility_20: 0.018772, volume_mean_20: 4395512.35, return_mean_20: 0.1535, amplitude_mean_20: 2.469, turnover_mean_20: 32.3005, MA_5: 1.736, MA_10: 1.7497, y_pred_Y_next_day_return: -0.000717, y_pred_Y_future_5d_return: 0.013078, y_pred_Y_future_10d_return: 0.050417, y_pred_Y_future_5d_vol_change: 0.228478, y_pred_Y_future_10d_vol_change: 0.166131
+ETF代码 513310: llm_score: 0.88, 开盘: 2.455, 收盘: 2.46, 最高: 2.467, 最低: 2.437, 成交量: 8237164.0, 成交额: 2023118936.0, 振幅: 1.22, 涨跌幅: 0.24, 涨跌额: 0.006, 换手率: 49.34, momentum_20: -0.077269, volatility_20: 0.021779, volume_mean_20: 9554685.55, return_mean_20: -0.3775, amplitude_mean_20: 2.674, turnover_mean_20: 57.2335, MA_5: 2.4548, MA_10: 2.4263, y_pred_Y_next_day_return: 0.000762, y_pred_Y_future_5d_return: 0.01614, y_pred_Y_future_10d_return: 0.009623, y_pred_Y_future_5d_vol_change: 0.308683, y_pred_Y_future_10d_vol_change: -0.08162
+ETF代码 159871: llm_score: 0.85, 开盘: 0.883, 收盘: 0.903, 最高: 0.906, 最低: 0.881, 成交量: 277163.0, 成交额: 49641186.4, 振幅: 2.83, 涨跌幅: 2.27, 涨跌额: 0.02, 换手率: 3.12, momentum_20: 0.02381, volatility_20: 0.021514, volume_mean_20: 234331.85, return_mean_20: 0.1395, amplitude_mean_20: 2.668, turnover_mean_20: 2.635, MA_5: 0.8872, MA_10: 0.8688, y_pred_Y_next_day_return: 0.000744, y_pred_Y_future_5d_return: 0.000221, y_pred_Y_future_10d_return: -5.5e-05, y_pred_Y_future_5d_vol_change: -0.107111, y_pred_Y_future_10d_vol_change: -0.192858
+ETF代码 517520: llm_score: 0.82, 开盘: 1.948, 收盘: 1.998, 最高: 2.0, 最低: 1.944, 成交量: 3820998.0, 成交额: 756595818.0, 振幅: 2.87, 涨跌幅: 2.46, 涨跌额: 0.048, 换手率: 6.12, momentum_20: 0.04937, volatility_20: 0.021861, volume_mean_20: 2149703.9, return_mean_20: 0.264, amplitude_mean_20: 2.237, turnover_mean_20: 3.4425, MA_5: 1.9742, MA_10: 1.9376, y_pred_Y_next_day_return: -0.00067, y_pred_Y_future_5d_return: 4.4e-05, y_pred_Y_future_10d_return: -0.004963, y_pred_Y_future_5d_vol_change: -0.112159, y_pred_Y_future_10d_vol_change: -0.162259
+ETF代码 159715: llm_score: 0.79, 开盘: 1.124, 收盘: 1.147, 最高: 1.156, 最低: 1.119, 成交量: 540799.0, 成交额: 61441982.7, 振幅: 3.3, 涨跌幅: 2.23, 涨跌额: 0.025, 换手率: 9.67, momentum_20: -0.040167, volatility_20: 0.017982, volume_mean_20: 536307.55, return_mean_20: -0.189, amplitude_mean_20: 2.3595, turnover_mean_20: 9.5855, MA_5: 1.1352, MA_10: 1.1224, y_pred_Y_next_day_return: 0.000376, y_pred_Y_future_5d_return: -0.000857, y_pred_Y_future_10d_return: 0.004509, y_pred_Y_future_5d_vol_change: -0.112681, y_pred_Y_future_10d_vol_change: 0.036467
+ETF代码 159531: llm_score: 0.76, 开盘: 1.326, 收盘: 1.349, 最高: 1.349, 最低: 1.315, 成交量: 785369.0, 成交额: 104790490.7, 振幅: 2.57, 涨跌幅: 1.97, 涨跌额: 0.026, 换手率: 11.96, momentum_20: -0.005895, volatility_20: 0.01431, volume_mean_20: 816466.35, return_mean_20: -0.02, amplitude_mean_20: 1.6435, turnover_mean_20: 12.4345, MA_5: 1.34, MA_10: 1.3307, y_pred_Y_next_day_return: -8.3e-05, y_pred_Y_future_5d_return: -0.00084, y_pred_Y_future_10d_return: -0.002308, y_pred_Y_future_5d_vol_change: -0.112649, y_pred_Y_future_10d_vol_change: 0.041799
+ETF代码 159628: llm_score: 0.7, 开盘: 1.273, 收盘: 1.3, 最高: 1.3, 最低: 1.265, 成交量: 544247.0, 成交额: 69987289.3, 振幅: 2.75, 涨跌幅: 1.96, 涨跌额: 0.025, 换手率: 9.82, momentum_20: -0.011407, volatility_20: 0.012348, volume_mean_20: 435665.25, return_mean_20: -0.051, amplitude_mean_20: 1.6335, turnover_mean_20: 7.8605, MA_5: 1.2866, MA_10: 1.2785, y_pred_Y_next_day_return: 0.000788, y_pred_Y_future_5d_return: -0.000558, y_pred_Y_future_10d_return: 0.003238, y_pred_Y_future_5d_vol_change: -0.186803, y_pred_Y_future_10d_vol_change: -0.015675
+ETF代码 510760: llm_score: 0.67, 开盘: 1.247, 收盘: 1.262, 最高: 1.264, 最低: 1.245, 成交量: 1876817.0, 成交额: 235240763.0, 振幅: 1.52, 涨跌幅: 1.12, 涨跌额: 0.014, 换手率: 12.88, momentum_20: -0.015601, volatility_20: 0.007257, volume_mean_20: 1349940.05, return_mean_20: -0.076, amplitude_mean_20: 0.9755, turnover_mean_20: 9.2615, MA_5: 1.2544, MA_10: 1.2485, y_pred_Y_next_day_return: -0.000289, y_pred_Y_future_5d_return: 0.000252, y_pred_Y_future_10d_return: -0.000971, y_pred_Y_future_5d_vol_change: 0.125027, y_pred_Y_future_10d_vol_change: 0.657188
+ETF代码 159967: llm_score: 0.64, 开盘: 0.596, 收盘: 0.603, 最高: 0.606, 最低: 0.59, 成交量: 5019158.0, 成交额: 300593171.601, 振幅: 2.7, 涨跌幅: 1.69, 涨跌额: 0.01, 换手率: 10.8, momentum_20: -0.00495, volatility_20: 0.020121, volume_mean_20: 3707629.35, return_mean_20: -0.0065, amplitude_mean_20: 3.241, turnover_mean_20: 7.977, MA_5: 0.5928, MA_10: 0.5815, y_pred_Y_next_day_return: 0.000828, y_pred_Y_future_5d_return: -0.000202, y_pred_Y_future_10d_return: 0.000908, y_pred_Y_future_5d_vol_change: 0.051566, y_pred_Y_future_10d_vol_change: 0.067737

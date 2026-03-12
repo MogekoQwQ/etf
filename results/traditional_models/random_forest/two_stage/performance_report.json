@@ -1,0 +1,46 @@
+{
+  "parameters": {
+    "target": "Y_future_5d_return",
+    "top_n_first": 50,
+    "top_n_final": 10,
+    "rebalancing_freq": "W",
+    "holding_days": 5,
+    "use_llm": true,
+    "mock_llm": false,
+    "enable_explanations": true,
+    "explanation_date": null,
+    "explanation_sample_size": 3,
+    "selected_explanation_dates": [
+      "2025-08-15",
+      "2025-12-05",
+      "2025-12-26"
+    ],
+    "generated_explanation_dates": [
+      "2025-08-15",
+      "2025-12-05",
+      "2025-12-26"
+    ],
+    "generated_explanations_count": 3,
+    "llm_timeout": null
+  },
+  "performance_strategy_a": {
+    "annual_return": 0.7769686984827668,
+    "annual_volatility": 0.20624139569034067,
+    "sharpe_ratio": 3.767278125140986,
+    "max_drawdown": -0.11638919421351557,
+    "win_rate": 0.6896551724137931,
+    "total_periods": 29,
+    "mean_return": 0.011472230328533407,
+    "std_return": 0.029050965511473157
+  },
+  "performance_strategy_b": {
+    "annual_return": 0.6697905069370105,
+    "annual_volatility": 0.231903133235746,
+    "sharpe_ratio": 2.88823396903448,
+    "max_drawdown": -0.12603324186588305,
+    "win_rate": 0.6551724137931034,
+    "total_periods": 29,
+    "mean_return": 0.010224499422951344,
+    "std_return": 0.03266565328984413
+  }
+}
