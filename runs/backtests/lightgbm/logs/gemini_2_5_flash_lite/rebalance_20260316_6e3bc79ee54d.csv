@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-03-16,515050,5G通信ETF,0.001819,0.0018193293377933,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,515790,光伏ETF,0.001796,0.0017955947101236,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,517520,黄金股ETF,0.001666,0.0016658160177075,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,515580,科技100ETF,0.001622,0.0016223306065812,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,515800,800FTE,0.001161,0.001161421314863,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,159966,创业板价值ETF,0.001084,0.0010837848402086,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,159781,科创创业ETF,0.00097,0.0009701992329052,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,516080,创新药ETF易方达,0.000676,0.0006759212959668,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,159905,深红利FTE,0.000595,0.0005948573804029,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False
+2026-03-16,159807,科技ETF,0.000586,0.0005855147380973,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6e3bc79ee54dae0351744ef2497565610e93f468234ad4d253db887519daeed7,False

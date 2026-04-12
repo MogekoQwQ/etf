@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-31,513310,中韩半导体ETF,0.005069,0.005068626,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,159910,基本面120ETE,0.00346,0.003460207,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,512980,传媒ETF,0.001247,0.0012467338,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,159967,创业板成长ETF,-0.000669,-0.0006691546,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,510180,上证180ETF,-0.000733,-0.0007330241,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,562320,沪深300价值ETF,-0.000888,-0.00088817143,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,516050,科技龙头ETF,-0.001068,-0.0010682085,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,159520,消费龙头ETF,-0.001725,-0.0017249654,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,562310,沪深300成长ETF,-0.001841,-0.0018413395,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False
+2025-12-31,515450,红利低波50ETF,-0.002089,-0.0020891482,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,b6b5942327b9e351a2aff699d45e37a1852e3542890662eaaf7bb36831d3f5fb,False

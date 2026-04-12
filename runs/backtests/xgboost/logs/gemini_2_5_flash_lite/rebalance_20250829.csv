@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-08-29,562310,沪深300成长ETF,0.033985,0.033984788,gemini-2.5-flash-lite
+2025-08-29,159901,深证100ETF,0.031528,0.031528194,gemini-2.5-flash-lite
+2025-08-29,159903,深成ETF,0.030669,0.030669317,gemini-2.5-flash-lite
+2025-08-29,515700,新能车ETF,0.030521,0.030520726,gemini-2.5-flash-lite
+2025-08-29,159966,创业板价值ETF,0.03023,0.030230379,gemini-2.5-flash-lite
+2025-08-29,510500,中证500ETF,0.024407,0.024407249,gemini-2.5-flash-lite
+2025-08-29,563000,中国A50ETF,0.01907,0.019070335,gemini-2.5-flash-lite
+2025-08-29,159910,基本面120ETE,0.017606,0.017605687,gemini-2.5-flash-lite
+2025-08-29,512580,环保ETF,0.016699,0.016698502,gemini-2.5-flash-lite
+2025-08-29,560610,A500指数ETF,0.015269,0.015269219,gemini-2.5-flash-lite

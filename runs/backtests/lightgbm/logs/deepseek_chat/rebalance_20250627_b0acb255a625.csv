@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-27,159852,软件ETF,0.95,0.0126688425234583,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,b0acb255a625a95ae4b4b67dad336d11246020474b5278fe275146169f2c5689,False
+2025-06-27,159687,亚太精选ETF,0.94,0.0122892919372157,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,b0acb255a625a95ae4b4b67dad336d11246020474b5278fe275146169f2c5689,False
+2025-06-27,516310,银行ETF易方达,0.93,0.001316250925117,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,b0acb255a625a95ae4b4b67dad336d11246020474b5278fe275146169f2c5689,False
+2025-06-27,510880,红利ETF,0.92,0.0004760061184243,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,b0acb255a625a95ae4b4b67dad336d11246020474b5278fe275146169f2c5689,False
+2025-06-27,515080,中证红利ETF,0.91,-0.0002925291833391,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,b0acb255a625a95ae4b4b67dad336d11246020474b5278fe275146169f2c5689,False

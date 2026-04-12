@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-18,159572,创业板200ETF易方达,0.95,0.0389161836306761,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,12f232c173916cd8dfdda654c499340d04fe71dc9791f912ecf45d36540fb485,False
+2025-04-18,159518,标普油气ETF,0.94,0.030221421313884,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,12f232c173916cd8dfdda654c499340d04fe71dc9791f912ecf45d36540fb485,False
+2025-04-18,159502,标普生物科技ETF,0.93,0.0277066122228158,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,12f232c173916cd8dfdda654c499340d04fe71dc9791f912ecf45d36540fb485,False
+2025-04-18,159967,创业板成长ETF,0.92,0.0269838421674907,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,12f232c173916cd8dfdda654c499340d04fe71dc9791f912ecf45d36540fb485,False
+2025-04-18,513290,纳指生物科技ETF,0.91,0.0222229541787949,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,12f232c173916cd8dfdda654c499340d04fe71dc9791f912ecf45d36540fb485,False

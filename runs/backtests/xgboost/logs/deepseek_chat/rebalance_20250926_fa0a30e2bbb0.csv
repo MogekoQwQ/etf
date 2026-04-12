@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-09-26,515980,人工智能ETF,0.95,0.024718711,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,159781,科创创业ETF,0.94,0.008890583,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,513310,中韩半导体ETF,0.93,0.008679677,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,159529,标普消费ETF,0.92,0.007987489,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,159847,医疗ETF易方达,0.91,0.0071985647,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,562500,机器人ETF,0.9,0.0068880985,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,516050,科技龙头ETF,0.89,0.0061770175,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,515050,5G通信ETF,0.88,0.00581827,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,159682,创业50ETF,0.87,0.005816576,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False
+2025-09-26,515400,大数据ETF,0.86,0.0057801236,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,fa0a30e2bbb0c53cb8f673642fa150ebb5a3c2b9a77526405570f8b3136fbacf,False

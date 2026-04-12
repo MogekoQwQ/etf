@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-11,159715,稀土ETF易方达,0.95,0.0071171925894215,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,510180,上证180ETF,0.94,0.0046322992278522,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,515010,券商ETF基金,0.93,0.0029734415456733,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,510300,沪深300ETF,0.92,0.001877069304847,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,510050,上证50ETF,0.91,0.0018739954254088,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,510500,中证500ETF,0.9,-0.0007803843084978,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,159920,恒生ETF,0.89,-0.0009322430122929,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,512750,基本面50ETF,0.88,-0.0009431804939947,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,510760,上证综指ETF,0.87,-0.0009797547243361,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False
+2025-07-11,510880,红利ETF,0.86,-0.0009850680731943,deepseek-chat,linear,Y_future_5d_return,default,50,10,2cc52713cec5ed9e05b9c33a88d8dfc464748f46e24422caf82c213c49c4a48c,False

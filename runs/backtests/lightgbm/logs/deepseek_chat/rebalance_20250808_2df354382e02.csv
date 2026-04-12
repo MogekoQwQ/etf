@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-08-08,518850,黄金ETF华夏,0.95,0.0049981607008354,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2df354382e0217f8a947c2d265abd636c26ac4e6e7d6baf0ed6b97d09ca7ae33,False
+2025-08-08,516080,创新药ETF易方达,0.94,0.0035669941651963,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2df354382e0217f8a947c2d265abd636c26ac4e6e7d6baf0ed6b97d09ca7ae33,False
+2025-08-08,512010,医药ETF,0.93,0.000618947269416,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2df354382e0217f8a947c2d265abd636c26ac4e6e7d6baf0ed6b97d09ca7ae33,False
+2025-08-08,159715,稀土ETF易方达,0.92,-0.0001786571454387,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2df354382e0217f8a947c2d265abd636c26ac4e6e7d6baf0ed6b97d09ca7ae33,False
+2025-08-08,159852,软件ETF,0.91,-0.0008171888481764,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2df354382e0217f8a947c2d265abd636c26ac4e6e7d6baf0ed6b97d09ca7ae33,False

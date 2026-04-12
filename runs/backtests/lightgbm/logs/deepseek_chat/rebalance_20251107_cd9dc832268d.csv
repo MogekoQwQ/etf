@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-11-07,513310,中韩半导体ETF,0.023912,0.0239117398337435,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,159938,医药卫生ETF,0.010608,0.0106083373123254,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,159871,有色金属ETF,0.010119,0.0101189967635937,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,520500,恒生创新药ETF,0.006473,0.0064732250175028,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,562320,沪深300价值ETF,0.005135,0.0051345201428477,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,510180,上证180ETF,0.003491,0.0034910144786131,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,516160,新能源ETF,0.002275,0.0022747279838034,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,562060,标普红利ETF,0.001652,0.0016523300327262,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,516310,银行ETF易方达,0.000443,0.0004425103962417,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False
+2025-11-07,159967,创业板成长ETF,0.000139,0.000138790904114,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,cd9dc832268d1af5d52217e6d335d2d301b6eda2a7ae3c0a6e7dff5436076a9c,False

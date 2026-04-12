@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-03-13,159871,有色金属ETF,0.01086,0.01085969052175,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,159715,稀土ETF易方达,0.009402,0.0094019152586802,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,512580,环保ETF,0.005351,0.0053508117252426,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,159930,能源ETF,0.004592,0.0045915025048708,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,515400,大数据ETF,0.002974,0.0029743351836556,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,563000,中国A50ETF,0.002383,0.002383247384133,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,515790,光伏ETF,0.002143,0.002142626804068,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,515050,5G通信ETF,0.001871,0.0018707436236708,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,516080,创新药ETF易方达,0.00165,0.001650324387932,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False
+2026-03-13,515580,科技100ETF,0.001606,0.0016057692984317,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,29150ab464c2261ee15f756bedd1a0a0f3a9e8d5d8ffdc52e4f513381fac33e7,False

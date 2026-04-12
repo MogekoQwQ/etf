@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-25,159518,标普油气ETF,0.032875,0.0328750716303763,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,159572,创业板200ETF易方达,0.018897,0.0188974159410216,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,515050,5G通信ETF,0.013575,0.0135745570897658,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,159967,创业板成长ETF,0.012602,0.0126024992221692,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,159682,创业50ETF,0.011598,0.0115975603864015,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,159509,纳指科技ETF,0.009481,0.009481007322528,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,588030,科创100指数ETF,0.007755,0.0077551940721481,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,513730,东南亚科技ETF,0.006063,0.0060627941803812,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,562500,机器人ETF,0.005806,0.0058057356962373,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False
+2025-04-25,517520,黄金股ETF,0.005784,0.0057839955841431,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,f83671ab207e741f56f99777860c6c9824eb240cc8d4d1808c06ea944210a4d2,False

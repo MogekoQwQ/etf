@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-08-01,515790,光伏ETF,0.95,0.0059946018998475,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ea9e29f46e54320b1d6027dca238417d3d4b0eca63772bd1a926f45cc79c8705,False
+2025-08-01,512010,医药ETF,0.94,0.0050134285542347,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ea9e29f46e54320b1d6027dca238417d3d4b0eca63772bd1a926f45cc79c8705,False
+2025-08-01,516080,创新药ETF易方达,0.93,0.004644813320623,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ea9e29f46e54320b1d6027dca238417d3d4b0eca63772bd1a926f45cc79c8705,False
+2025-08-01,520500,恒生创新药ETF,0.92,0.0041196306867918,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ea9e29f46e54320b1d6027dca238417d3d4b0eca63772bd1a926f45cc79c8705,False
+2025-08-01,159529,标普消费ETF,0.91,0.0028578417576387,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ea9e29f46e54320b1d6027dca238417d3d4b0eca63772bd1a926f45cc79c8705,False

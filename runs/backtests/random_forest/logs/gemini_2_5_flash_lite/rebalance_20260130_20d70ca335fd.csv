@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-30,518850,黄金ETF华夏,0.04062,0.0406199763868427,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,159518,标普油气ETF,0.032131,0.0321306799448824,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,159715,稀土ETF易方达,0.031811,0.0318113831897908,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,510500,中证500ETF,0.01057,0.0105695011365661,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,512660,军工ETF,0.009278,0.0092779825951283,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,512690,酒ETF,0.008874,0.0088735843193518,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,510300,沪深300ETF,0.00727,0.0072696854976135,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,159687,亚太精选ETF,0.007213,0.0072129843573455,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,515220,煤炭ETE,0.007049,0.0070493326626812,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False
+2026-01-30,159930,能源ETF,0.006761,0.0067613246389062,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,20d70ca335fd5d24f27796fa9945e02f81de9e6fa4f6f75acd1f553ae24f2289,False

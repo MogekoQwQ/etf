@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-09-26,515980,人工智能ETF,0.018251,0.0182510863273879,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,513330,恒生互联网ETF,0.010217,0.0102170938724658,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,515050,5G通信ETF,0.007594,0.0075942063085068,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,159781,科创创业ETF,0.006743,0.0067434404593099,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,513050,中概互联网ETF,0.006267,0.0062669625654583,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,515700,新能车ETF,0.005848,0.0058480180026543,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,516050,科技龙头ETF,0.004977,0.0049770095049916,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,159682,创业50ETF,0.004471,0.0044705120656533,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,159915,创业板ETF,0.003838,0.0038378406119146,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False
+2025-09-26,517520,黄金股ETF,0.002928,0.0029275621530138,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,b60cc79c88ee12428bc9eb4f06232a9534ed1dd54142b8aa2afe3617751425ad,False

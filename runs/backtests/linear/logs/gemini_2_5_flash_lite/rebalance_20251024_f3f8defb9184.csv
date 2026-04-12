@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-24,159967,创业板成长ETF,0.005873,0.0058732206214662,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,515980,人工智能ETF,0.005816,0.0058155652351605,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,159781,科创创业ETF,0.004266,0.0042658901938326,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,159807,科技ETF,0.003107,0.0031069750146444,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,159939,信息技术ETF,0.002985,0.0029845816886229,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,515580,科技100ETF,0.002709,0.0027089554098245,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,159871,有色金属ETF,0.001771,0.0017705317387667,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,512480,半导体ETF,0.001437,0.0014370992604071,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,515050,5G通信ETF,0.001289,0.0012892985635048,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False
+2025-10-24,159995,芯片ETF,0.000613,0.0006127120812149,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,f3f8defb91847145bf6cffb29114826d9585c1d30415c09c4172f084d424873f,False

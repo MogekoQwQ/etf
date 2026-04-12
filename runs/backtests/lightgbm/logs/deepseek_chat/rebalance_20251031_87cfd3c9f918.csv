@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-31,513310,中韩半导体ETF,0.95,0.0172663216783455,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,87cfd3c9f918f95430e4be49a444756870e2203702aa9ccb7dc780c42c11493c,False
+2025-10-31,159871,有色金属ETF,0.94,0.0171020359319387,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,87cfd3c9f918f95430e4be49a444756870e2203702aa9ccb7dc780c42c11493c,False
+2025-10-31,515050,5G通信ETF,0.93,0.0166451881434995,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,87cfd3c9f918f95430e4be49a444756870e2203702aa9ccb7dc780c42c11493c,False
+2025-10-31,159715,稀土ETF易方达,0.92,0.0160414017580715,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,87cfd3c9f918f95430e4be49a444756870e2203702aa9ccb7dc780c42c11493c,False
+2025-10-31,159967,创业板成长ETF,0.91,0.0085995153070796,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,87cfd3c9f918f95430e4be49a444756870e2203702aa9ccb7dc780c42c11493c,False

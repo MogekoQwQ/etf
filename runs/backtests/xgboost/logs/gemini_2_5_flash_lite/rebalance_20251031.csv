@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-10-31,159715,稀土ETF易方达,0.017718,0.01771846,gemini-2.5-flash-lite
+2025-10-31,159847,医疗ETF易方达,0.01612,0.016119754,gemini-2.5-flash-lite
+2025-10-31,159871,有色金属ETF,0.015254,0.0152542135,gemini-2.5-flash-lite
+2025-10-31,515050,5G通信ETF,0.014152,0.014152354,gemini-2.5-flash-lite
+2025-10-31,513310,中韩半导体ETF,0.011129,0.011129426,gemini-2.5-flash-lite
+2025-10-31,515790,光伏ETF,0.006912,0.0069119395,gemini-2.5-flash-lite
+2025-10-31,159938,医药卫生ETF,0.006306,0.0063059162,gemini-2.5-flash-lite
+2025-10-31,516160,新能源ETF,0.00628,0.0062803463,gemini-2.5-flash-lite
+2025-10-31,517520,黄金股ETF,0.006211,0.006211212,gemini-2.5-flash-lite
+2025-10-31,516050,科技龙头ETF,0.005159,0.005159306,gemini-2.5-flash-lite

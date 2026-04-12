@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-09-12,515980,人工智能ETF,0.028523,0.028522624,gemini-2.5-flash-lite
+2025-09-12,516050,科技龙头ETF,0.012057,0.0120567875,gemini-2.5-flash-lite
+2025-09-12,515050,5G通信ETF,0.010545,0.010545036,gemini-2.5-flash-lite
+2025-09-12,159520,消费龙头ETF,0.009591,0.009590846,gemini-2.5-flash-lite
+2025-09-12,517300,沪港深300ETF,0.008414,0.00841376,gemini-2.5-flash-lite
+2025-09-12,159682,创业50ETF,0.00693,0.006930366,gemini-2.5-flash-lite
+2025-09-12,513050,中概互联网ETF,0.006889,0.0068893754,gemini-2.5-flash-lite
+2025-09-12,562310,沪深300成长ETF,0.006535,0.00653476,gemini-2.5-flash-lite
+2025-09-12,512690,酒ETF,0.003841,0.0038410781,gemini-2.5-flash-lite
+2025-09-12,159995,芯片ETF,-0.006159,-0.002831326,gemini-2.5-flash-lite

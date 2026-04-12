@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-26,515700,新能车ETF,0.95,0.0116107856144506,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,9f0127b3ba70a27d718312616d06f25afe1a2d77a0d6fd6bbf7893d27e6cdc0d,False
+2025-12-26,516160,新能源ETF,0.94,0.0064149276101315,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,9f0127b3ba70a27d718312616d06f25afe1a2d77a0d6fd6bbf7893d27e6cdc0d,False
+2025-12-26,159871,有色金属ETF,0.93,-0.0007320526342282,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,9f0127b3ba70a27d718312616d06f25afe1a2d77a0d6fd6bbf7893d27e6cdc0d,False
+2025-12-26,512660,军工ETF,0.92,-0.0014986871637415,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,9f0127b3ba70a27d718312616d06f25afe1a2d77a0d6fd6bbf7893d27e6cdc0d,False
+2025-12-26,159967,创业板成长ETF,0.91,-0.0056164440504579,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,9f0127b3ba70a27d718312616d06f25afe1a2d77a0d6fd6bbf7893d27e6cdc0d,False

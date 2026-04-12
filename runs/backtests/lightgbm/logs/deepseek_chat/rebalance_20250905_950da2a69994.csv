@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-09-05,159966,创业板价值ETF,0.034787,0.0347866731170802,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,950da2a699948fbe289376440cc9060c4c38fb72ee8b8115c4a0d78a9fa371e2,False
+2025-09-05,159901,深证100ETF,0.025777,0.0257769891707962,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,950da2a699948fbe289376440cc9060c4c38fb72ee8b8115c4a0d78a9fa371e2,False
+2025-09-05,515860,科技ETF基金,0.023703,0.0237026993232673,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,950da2a699948fbe289376440cc9060c4c38fb72ee8b8115c4a0d78a9fa371e2,False
+2025-09-05,562310,沪深300成长ETF,0.020687,0.0206866780049328,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,950da2a699948fbe289376440cc9060c4c38fb72ee8b8115c4a0d78a9fa371e2,False
+2025-09-05,516080,创新药ETF易方达,0.01788,0.0178800432338732,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,950da2a699948fbe289376440cc9060c4c38fb72ee8b8115c4a0d78a9fa371e2,False

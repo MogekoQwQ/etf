@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2026-03-06,516670,畜牧养殖ETF,0.069131,0.06913145,gemini-2.5-flash-lite
+2026-03-06,159825,农业ETF,0.022831,0.022831324,gemini-2.5-flash-lite
+2026-03-06,518850,黄金ETF华夏,0.012328,0.012327614,gemini-2.5-flash-lite
+2026-03-06,159837,生物科技ETF,0.006418,0.00641776,gemini-2.5-flash-lite
+2026-03-06,515010,券商ETF基金,0.005907,0.0059066173,gemini-2.5-flash-lite
+2026-03-06,159930,能源ETF,0.005585,0.0055851075,gemini-2.5-flash-lite
+2026-03-06,513730,东南亚科技ETF,0.005482,0.0054818993,gemini-2.5-flash-lite
+2026-03-06,512290,生物医药ETF,0.003432,0.0034319102,gemini-2.5-flash-lite
+2026-03-06,563000,中国A50ETF,0.002839,0.0028394412,gemini-2.5-flash-lite
+2026-03-06,512010,医药ETF,0.002454,0.002454246,gemini-2.5-flash-lite

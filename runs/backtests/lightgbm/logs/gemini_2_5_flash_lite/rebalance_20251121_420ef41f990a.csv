@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-11-21,516160,新能源ETF,0.021856,0.0218555881686393,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,159915,创业板ETF,0.017686,0.0176861023204318,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,159715,稀土ETF易方达,0.01206,0.0120602502992486,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,159871,有色金属ETF,0.011564,0.011564241116048,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,512580,环保ETF,0.011334,0.0113336732389443,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,520500,恒生创新药ETF,0.00986,0.0098602132538485,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,515050,5G通信ETF,0.009466,0.0094659766056401,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,515700,新能车ETF,0.008423,0.0084225346375523,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,159847,医疗ETF易方达,0.007095,0.0070954247443752,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False
+2025-11-21,159916,深F60ETF,0.006178,0.0061776641982158,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,420ef41f990af04ea64f5c787b7df7ab800b8c68accc355b2a67ab11b2448809,False

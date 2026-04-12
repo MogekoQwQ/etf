@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-09-05,159966,创业板价值ETF,0.025784,0.025784122,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,159901,深证100ETF,0.020099,0.020099385,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,517300,沪港深300ETF,0.018094,0.01809361,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,159903,深成ETF,0.017876,0.01787584,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,159520,消费龙头ETF,0.016785,0.016784688,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,512980,传媒ETF,0.015416,0.015416461,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,512010,医药ETF,0.012171,0.012170674,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,159910,基本面120ETE,0.011936,0.011936049,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,510180,上证180ETF,0.011656,0.011656128,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False
+2025-09-05,562310,沪深300成长ETF,0.010334,0.010333906,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,4106fca51fc5b73b85848147f4390940072e0dedf93ef31a82af20e71691d775,False

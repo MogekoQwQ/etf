@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-24,513310,中韩半导体ETF,0.01419,0.0141896210165285,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,42feb335c7a0b64b482d911af3573282d5f32f0db60c55c5c8f7897b769008ac,False
+2025-10-24,159967,创业板成长ETF,0.010339,0.0103394258427315,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,42feb335c7a0b64b482d911af3573282d5f32f0db60c55c5c8f7897b769008ac,False
+2025-10-24,516050,科技龙头ETF,0.008155,0.0081548221220771,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,42feb335c7a0b64b482d911af3573282d5f32f0db60c55c5c8f7897b769008ac,False
+2025-10-24,515220,煤炭ETE,0.005401,0.0054007426392525,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,42feb335c7a0b64b482d911af3573282d5f32f0db60c55c5c8f7897b769008ac,False
+2025-10-24,520500,恒生创新药ETF,0.002575,0.0025746164445267,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,42feb335c7a0b64b482d911af3573282d5f32f0db60c55c5c8f7897b769008ac,False

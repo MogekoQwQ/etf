@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2026-03-13,159930,能源ETF,0.95,0.0091539305,deepseek-chat
+2026-03-13,159871,有色金属ETF,0.94,0.0068107047,deepseek-chat
+2026-03-13,159837,生物科技ETF,0.93,0.0064904536,deepseek-chat
+2026-03-13,512580,环保ETF,0.92,0.006116377,deepseek-chat
+2026-03-13,515400,大数据ETF,0.91,0.0058859666,deepseek-chat
+2026-03-13,562000,中证A100ETF基金,0.9,0.0053870706,deepseek-chat
+2026-03-13,512010,医药ETF,0.89,0.004362272,deepseek-chat
+2026-03-13,159910,基本面120ETE,0.88,0.0043382193,deepseek-chat
+2026-03-13,515790,光伏ETF,0.87,0.0024597216,deepseek-chat
+2026-03-13,516050,科技龙头ETF,0.86,0.0021837233,deepseek-chat

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-08-22,159939,信息技术ETF,0.95,0.062495384,deepseek-chat
+2025-08-22,513310,中韩半导体ETF,0.94,0.05772141,deepseek-chat
+2025-08-22,159807,科技ETF,0.93,0.05720957,deepseek-chat
+2025-08-22,159781,科创创业ETF,0.92,0.044599153,deepseek-chat
+2025-08-22,516050,科技龙头ETF,0.91,0.040778454,deepseek-chat
+2025-08-22,515750,科技50ETF,0.9,0.019720744,deepseek-chat
+2025-08-22,159915,创业板ETF,0.89,0.017077254,deepseek-chat
+2025-08-22,515400,大数据ETF,0.88,0.016425539,deepseek-chat
+2025-08-22,515580,科技100ETF,0.87,0.015749695,deepseek-chat
+2025-08-22,515860,科技ETF基金,0.86,0.010626737,deepseek-chat

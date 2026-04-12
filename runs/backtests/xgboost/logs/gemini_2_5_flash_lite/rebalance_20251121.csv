@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-11-21,516160,新能源ETF,0.030598,0.03059818,gemini-2.5-flash-lite
+2025-11-21,512010,医药ETF,0.018815,0.018815333,gemini-2.5-flash-lite
+2025-11-21,159871,有色金属ETF,0.016975,0.016975198,gemini-2.5-flash-lite
+2025-11-21,512580,环保ETF,0.014098,0.014098086,gemini-2.5-flash-lite
+2025-11-21,520500,恒生创新药ETF,0.011964,0.011964385,gemini-2.5-flash-lite
+2025-11-21,159715,稀土ETF易方达,0.011178,0.011177551,gemini-2.5-flash-lite
+2025-11-21,159847,医疗ETF易方达,0.010025,0.010024516,gemini-2.5-flash-lite
+2025-11-21,159915,创业板ETF,0.009914,0.009914373,gemini-2.5-flash-lite
+2025-11-21,515700,新能车ETF,0.007505,0.0075045982,gemini-2.5-flash-lite
+2025-11-21,512260,中证500低波动ETF,0.006915,0.006915452,gemini-2.5-flash-lite

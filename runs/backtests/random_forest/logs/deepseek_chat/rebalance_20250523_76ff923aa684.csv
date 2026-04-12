@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-23,159847,医疗ETF易方达,0.026836,0.0268356790466561,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,159509,纳指科技ETF,0.00665,0.0066498603212605,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,520550,港股红利低波ETF,0.001235,0.0012350293380863,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,515450,红利低波50ETF,0.000505,0.0005045130932505,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,159687,亚太精选ETF,0.000362,0.0003618644944105,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,510180,上证180ETF,0.00031,0.0003102956235873,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,159572,创业板200ETF易方达,0.000173,0.0001728217552789,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,512260,中证500低波动ETF,0.0001,0.0001003743832533,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,159307,红利低波100ETF,-8e-06,-8.295060093317484e-06,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False
+2025-05-23,515010,券商ETF基金,-0.000269,-0.0002692529711592,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,76ff923aa68488ba708d4f1613caefbfbebfb2f138ae1cc472ae87e73c4598df,False

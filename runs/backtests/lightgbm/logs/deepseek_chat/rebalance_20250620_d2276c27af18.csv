@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-20,159529,标普消费ETF,0.015983,0.0159829751642625,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d2276c27af187858e1a0975f0179a2442bfa2a34d1f4a81e4657929a341fdf04,False
+2025-06-20,513290,纳指生物科技ETF,0.001285,0.00128524507382,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d2276c27af187858e1a0975f0179a2442bfa2a34d1f4a81e4657929a341fdf04,False
+2025-06-20,512980,传媒ETF,-0.000515,-0.0005152688774747,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d2276c27af187858e1a0975f0179a2442bfa2a34d1f4a81e4657929a341fdf04,False
+2025-06-20,515080,中证红利ETF,-0.001327,-0.0013272638424713,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d2276c27af187858e1a0975f0179a2442bfa2a34d1f4a81e4657929a341fdf04,False
+2025-06-20,510880,红利ETF,-0.001401,-0.0014006862898422,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d2276c27af187858e1a0975f0179a2442bfa2a34d1f4a81e4657929a341fdf04,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-11-28,560500,500质量成长ETF,0.002076,0.0020760084915102,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,159910,基本面120ETE,0.001822,0.0018215517074851,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,520500,恒生创新药ETF,0.001088,0.0010883137903619,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,513290,纳指生物科技ETF,0.000718,0.0007177715911289,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,159520,消费龙头ETF,3.7e-05,3.706292405297407e-05,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,159307,红利低波100ETF,-0.000457,-0.0004571961372639,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,512750,基本面50ETF,-0.001088,-0.0010881214159206,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,563020,红利低波动ETF,-0.001268,-0.0012679390250133,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,510180,上证180ETF,-0.001273,-0.0012729437746574,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False
+2025-11-28,512260,中证500低波动ETF,-0.001348,-0.0013476544070975,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,96ce1d5c4b0d5a97ce677012699ddc11e40db73b1a7d612d313dbd79269ed04f,False

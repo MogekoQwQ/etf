@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-05,159502,标普生物科技ETF,0.95,0.0039845215713521,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,5549c99432307a9bf18a44b219583a90065d960126286f7ee56b361df65e4377,False
+2025-12-05,513290,纳指生物科技ETF,0.94,-0.0015627378298133,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,5549c99432307a9bf18a44b219583a90065d960126286f7ee56b361df65e4377,False
+2025-12-05,159871,有色金属ETF,0.93,0.0026076199264688,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,5549c99432307a9bf18a44b219583a90065d960126286f7ee56b361df65e4377,False
+2025-12-05,520500,恒生创新药ETF,0.92,0.0005053801307736,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,5549c99432307a9bf18a44b219583a90065d960126286f7ee56b361df65e4377,False
+2025-12-05,518850,黄金ETF华夏,0.91,-0.0035169466604661,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,5549c99432307a9bf18a44b219583a90065d960126286f7ee56b361df65e4377,False

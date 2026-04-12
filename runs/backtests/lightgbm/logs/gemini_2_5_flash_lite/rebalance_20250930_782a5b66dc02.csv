@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-09-30,515980,人工智能ETF,0.014849,0.014848642278529,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,513330,恒生互联网ETF,0.013941,0.0139406964773455,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,513310,中韩半导体ETF,0.009189,0.0091892828729086,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,515050,5G通信ETF,0.007097,0.0070970994162864,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,159529,标普消费ETF,0.006368,0.0063676298040799,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,513050,中概互联网ETF,0.00553,0.0055298286531141,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,159967,创业板成长ETF,0.003179,0.0031790914712455,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,159781,科创创业ETF,0.002957,0.0029567598598287,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,515750,科技50ETF,0.00284,0.0028396322788388,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False
+2025-09-30,518850,黄金ETF华夏,0.001676,0.0016763990052633,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,782a5b66dc020f6aaf63050404425fc72993599c92874ef52ed211a47f3966a2,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-06,159529,标普消费ETF,0.9999999999999999,-0.005012622760058,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,517520,黄金股ETF,0.9999999999999998,-0.0053074170340657,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,159518,标普油气ETF,0.9999999999999997,-0.0047686519551057,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,515050,5G通信ETF,0.9999999999999996,-0.0059773611186575,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,515400,大数据ETF,0.9999999999999994,-0.0060164816586539,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,159572,创业板200ETF易方达,0.9999999999999994,-0.0050116445459685,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,562500,机器人ETF,0.9999999999999993,-0.0060365579914477,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,159837,生物科技ETF,0.9999999999999992,-0.0045027311217603,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,513290,纳指生物科技ETF,0.9999999999999991,-0.0034142039752471,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False
+2025-06-06,159715,稀土ETF易方达,0.999999999999999,-0.0034803826305645,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,effd18516b224d5853d00dbc3fe53b0bcedc71a8ca31f5d5759997788b51a0f1,False

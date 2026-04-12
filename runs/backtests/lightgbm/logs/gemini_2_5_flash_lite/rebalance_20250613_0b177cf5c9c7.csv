@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-13,159518,标普油气ETF,0.95,0.025836049567098,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,510880,红利ETF,0.95,-0.0013156186363995,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,513630,港股红利指数ETF,0.95,-0.0090869411143224,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,512980,传媒ETF,0.95,-0.0019964884290067,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,512260,中证500低波动ETF,0.95,-0.0014597054628363,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,513290,纳指生物科技ETF,0.95,-0.00241339482967,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,515080,中证红利ETF,0.95,-0.0001427251327199,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,518850,黄金ETF华夏,0.95,0.0005422206616248,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,510180,上证180ETF,0.95,0.0007172061353536,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False
+2025-06-13,512010,医药ETF,0.95,-0.0001688448853581,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,0b177cf5c9c7f958dfd54335c11bcde24bafebaea4e1c9e12afdd9b49b613d03,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-24,513310,中韩半导体ETF,0.01419,0.0141896210165285,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,159967,创业板成长ETF,0.010339,0.0103394258427315,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,516050,科技龙头ETF,0.008155,0.0081548221220771,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,515220,煤炭ETE,0.005401,0.0054007426392525,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,520500,恒生创新药ETF,0.002575,0.0025746164445267,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,517520,黄金股ETF,0.002412,0.0024123032938464,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,159509,纳指科技ETF,0.002299,0.0022992302411167,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,159781,科创创业ETF,0.001137,0.0011371535872171,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,159529,标普消费ETF,0.001003,0.0010027859391193,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False
+2025-10-24,562320,沪深300价值ETF,0.000651,0.0006512968931609,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5c3b7f44bf97d7cf2d2b90d58550962ef2296d6afca1ae879ea4aafa59619f2a,False

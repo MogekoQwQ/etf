@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-27,515400,大数据ETF,0.005973,0.0059734347408433,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,515220,煤炭ETE,0.004162,0.0041616185145143,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159852,软件ETF,0.001729,0.0017291988108541,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159871,有色金属ETF,0.00153,0.0015297203475222,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159715,稀土ETF易方达,0.000512,0.0005122031775451,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159930,能源ETF,-0.00128,-0.0012802631633041,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159399,现全流FTE,-0.002029,-0.0020289547712021,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159687,亚太精选ETF,-0.00205,-0.0020495589016464,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159307,红利低波100ETF,-0.002148,-0.0021481515032932,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False
+2026-02-27,159691,港股红利ETF,-0.002182,-0.0021824721390059,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,19dd6ea75201c647a8401a613a8e3ff29e023ce75e580dec12b45c1bc86eff41,False

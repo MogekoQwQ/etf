@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-13,515220,煤炭ETE,0.95,0.0018022681329664,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,159691,港股红利ETF,0.9,0.001314931720683,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,513970,恒生消费ETF,0.85,0.0011133673711241,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,159518,标普油气ETF,0.8,0.0006115720687095,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,515400,大数据ETF,0.75,0.0002204650217185,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,159201,自由现金流FTE,0.7,-0.0002442843734214,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,515650,消费50ETF,0.65,-0.0002980794842181,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,562060,标普红利ETF,0.6,-0.0004678806588883,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,520550,港股红利低波ETF,0.55,-0.0006079058696746,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False
+2026-02-13,159930,能源ETF,0.5,-0.0006783381970506,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,c64a63a5cc38ab864fd91be8129edc2ef91d97fa45fa5e78f02de073740453b1,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-31,159871,有色金属ETF,2.073386,-0.0019027791713185,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,159967,创业板成长ETF,1.745882,-0.0038197536765023,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,159682,创业50ETF,1.004183,-0.0054247885792373,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,512980,传媒ETF,0.748923,0.0005492922650139,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,159807,科技ETF,0.72725,-0.005234516860247,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,517520,黄金股ETF,0.662231,-0.0001746441616565,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,515010,券商ETF基金,0.652598,-0.0032932081936146,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,560610,A500指数ETF,0.589987,-0.0054106631459601,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,562310,沪深300成长ETF,0.464765,-0.0043186484875408,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False
+2025-12-31,159852,软件ETF,0.416603,-0.0052680274850591,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,02324c372712500f096f7d3cd37b78aca2e6b7e269b57eec8ae07a3ba42185ba,False

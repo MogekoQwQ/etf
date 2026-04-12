@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-11-28,560500,500质量成长ETF,0.95,0.0020760084915102,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2b7da4ad35e8aed06cb0b06aed2b7dd688b67b1fb08c762f1c23864c84ec6bf0,False
+2025-11-28,159910,基本面120ETE,0.94,0.0018215517074851,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2b7da4ad35e8aed06cb0b06aed2b7dd688b67b1fb08c762f1c23864c84ec6bf0,False
+2025-11-28,520500,恒生创新药ETF,0.93,0.0010883137903619,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2b7da4ad35e8aed06cb0b06aed2b7dd688b67b1fb08c762f1c23864c84ec6bf0,False
+2025-11-28,513290,纳指生物科技ETF,0.92,0.0007177715911289,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2b7da4ad35e8aed06cb0b06aed2b7dd688b67b1fb08c762f1c23864c84ec6bf0,False
+2025-11-28,159520,消费龙头ETF,0.91,3.706292405297407e-05,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,2b7da4ad35e8aed06cb0b06aed2b7dd688b67b1fb08c762f1c23864c84ec6bf0,False

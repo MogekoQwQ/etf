@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-08-29,515700,新能车ETF,0.046112,0.0461123592993985,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,cdffb7d0afd01c036b1828cc5cf2d0d1344e9053a2f18cfb05e2b7e175fdebfc,False
+2025-08-29,562310,沪深300成长ETF,0.036237,0.0362374990059754,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,cdffb7d0afd01c036b1828cc5cf2d0d1344e9053a2f18cfb05e2b7e175fdebfc,False
+2025-08-29,159903,深成ETF,0.025058,0.025057861073601,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,cdffb7d0afd01c036b1828cc5cf2d0d1344e9053a2f18cfb05e2b7e175fdebfc,False
+2025-08-29,515170,食品饮料ETF,0.023233,0.0232326661984252,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,cdffb7d0afd01c036b1828cc5cf2d0d1344e9053a2f18cfb05e2b7e175fdebfc,False
+2025-08-29,159966,创业板价值ETF,0.021449,0.0214491188596244,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,cdffb7d0afd01c036b1828cc5cf2d0d1344e9053a2f18cfb05e2b7e175fdebfc,False

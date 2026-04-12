@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-31,159916,深F60ETF,0.002654,0.0026539796594659,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,159502,标普生物科技ETF,0.001561,0.0015613808641341,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,512980,传媒ETF,0.001126,0.0011260434152737,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,516050,科技龙头ETF,0.000703,0.0007032533196173,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,520500,恒生创新药ETF,-0.000405,-0.0004047780978592,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,510180,上证180ETF,-0.000543,-0.0005426843162589,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,159781,科创创业ETF,-0.000988,-0.0009875782517773,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,159910,基本面120ETE,-0.00114,-0.0011400775610877,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,510880,红利ETF,-0.001223,-0.0012225630928238,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False
+2025-12-31,513330,恒生互联网ETF,-0.001475,-0.0014752485638603,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,0f14c2231968d10fc6b3eaa4221b1af5b911193c42ef49515f6b0dc5efc576ed,False

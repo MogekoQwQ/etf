@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-23,512980,传媒ETF,1.0,-0.0032149458374377,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,588030,科创100指数ETF,0.9000000000000001,-0.0035355809860353,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,512660,军工ETF,0.85,-0.0055482502228076,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,515790,光伏ETF,0.8000000000000002,0.0121686268143206,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,159852,软件ETF,0.75,-0.005372045745645,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,515400,大数据ETF,0.7000000000000001,-0.0066630214478889,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,159715,稀土ETF易方达,0.65,-0.0063315116709066,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,515750,科技50ETF,0.6000000000000001,-0.005747042911637,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,159628,国证2000ETF,0.55,-0.005365547166612,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False
+2026-01-23,159847,医疗ETF易方达,0.54,-0.003445273788093,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,1e01833053009f882555bea7c679afceafcd1cba4d22257681949d42ce084c39,False

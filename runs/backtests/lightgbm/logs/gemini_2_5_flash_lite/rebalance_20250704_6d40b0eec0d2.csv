@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-04,515050,5G通信ETF,1.0,-0.0071846448481958,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,515860,科技ETF基金,0.9999999999999998,-0.0039758365335276,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,515700,新能车ETF,0.9999999999999996,-0.0039677426567766,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,515800,800FTE,0.9999999999999996,-0.0066602235752201,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,510880,红利ETF,0.9999999999999996,-0.0018825196979085,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,515450,红利低波50ETF,0.9999999999999996,-0.003429220049537,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,516160,新能源ETF,0.9999999999999994,-0.0021940301079206,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,510180,上证180ETF,0.9999999999999994,-0.0023549023882801,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,510760,上证综指ETF,0.9999999999999994,-0.0024201440086737,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False
+2025-07-04,515080,中证红利ETF,0.9999999999999994,-0.0028252875431024,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,6d40b0eec0d22813b9d9eb84dd852c198d2f0ab48a876ab2ab22c8ac1b0c2fc5,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-27,159518,标普油气ETF,0.025557,0.0255567052645499,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,518850,黄金ETF华夏,0.007355,0.0073547661515897,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,513330,恒生互联网ETF,0.003183,0.0031828358357834,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,515010,券商ETF基金,0.00085,0.0008503748721452,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,515400,大数据ETF,0.000694,0.0006942121514909,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,510050,上证50ETF,0.00042,0.0004202548272424,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,159903,深成ETF,-0.000417,-0.0004169661668723,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,159307,红利低波100ETF,-0.000827,-0.0008268468966414,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,512750,基本面50ETF,-0.000855,-0.0008551542996056,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False
+2026-02-27,562310,沪深300成长ETF,-0.000859,-0.0008590136130204,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,f78173ea24ce0246d1fac3efbb337f1e434a5ed4e1a0b46d71679aa3dc47f007,False

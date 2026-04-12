@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-25,159518,标普油气ETF,0.027206,0.0272057208658565,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,159967,创业板成长ETF,0.021856,0.0218558244075008,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,159847,医疗ETF易方达,0.016507,0.0165074101836956,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,159966,创业板价值ETF,0.015138,0.0151380256962793,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,159529,标普消费ETF,0.014996,0.0149956577438984,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,513730,东南亚科技ETF,0.012927,0.012927094492655,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,159502,标普生物科技ETF,0.012521,0.0125210499491566,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,159682,创业50ETF,0.011218,0.0112179697757547,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,515050,5G通信ETF,0.011182,0.0111820329901023,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False
+2025-04-25,159572,创业板200ETF易方达,0.011044,0.0110441969553583,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,18b56709f7bedcf9c22b11f48bfc7abe5f14f1fd0efdfcf41f3b835123d829c3,False

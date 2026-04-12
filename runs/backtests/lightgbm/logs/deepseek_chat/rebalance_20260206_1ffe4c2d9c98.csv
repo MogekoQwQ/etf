@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-06,512660,军工ETF,0.95,0.0239035930074754,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,159518,标普油气ETF,0.9,0.0186876663855935,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,517520,黄金股ETF,0.85,0.0120352365495098,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,159871,有色金属ETF,0.8,0.0097159628743418,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,515400,大数据ETF,0.75,0.0067174590958488,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,518850,黄金ETF华夏,0.7,0.006272001546805,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,513310,中韩半导体ETF,0.65,0.0048790410802186,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,513050,中概互联网ETF,0.6,0.0035098694051422,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,512100,中证1000ETF,0.55,0.0016245515381829,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False
+2026-02-06,159916,深F60ETF,0.5,0.0015246957182103,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,1ffe4c2d9c98aa5f3e574d6f05a2909d20f9b26174e5ceb6991719534148c335,False

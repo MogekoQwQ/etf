@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2026-02-06,159518,标普油气ETF,0.024529,0.024528649,gemini-2.5-flash-lite
+2026-02-06,512660,军工ETF,0.017223,0.017222585,gemini-2.5-flash-lite
+2026-02-06,518850,黄金ETF华夏,0.013306,0.013305897,gemini-2.5-flash-lite
+2026-02-06,515400,大数据ETF,0.012645,0.012644815,gemini-2.5-flash-lite
+2026-02-06,515220,煤炭ETE,0.006683,0.0066834325,gemini-2.5-flash-lite
+2026-02-06,159852,软件ETF,0.005132,0.0051320656,gemini-2.5-flash-lite
+2026-02-06,516160,新能源ETF,0.003018,0.0030183485,gemini-2.5-flash-lite
+2026-02-06,512750,基本面50ETF,0.002722,0.0027217094,gemini-2.5-flash-lite
+2026-02-06,513970,恒生消费ETF,0.00246,0.002460219,gemini-2.5-flash-lite
+2026-02-06,159520,消费龙头ETF,0.001553,0.0015527012,gemini-2.5-flash-lite

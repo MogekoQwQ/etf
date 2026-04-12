@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-03-13,159847,医疗ETF易方达,0.00828,0.0082799354883353,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,515400,大数据ETF,0.003639,0.003639151320793,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,159930,能源ETF,0.003432,0.0034320083299986,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,159715,稀土ETF易方达,0.003327,0.0033273482247129,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,515220,煤炭ETE,0.003216,0.0032158530579719,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,159871,有色金属ETF,0.002554,0.0025544664707923,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,515790,光伏ETF,0.001862,0.0018618630761813,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,512580,环保ETF,0.001806,0.0018063721574768,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,159967,创业板成长ETF,0.001575,0.0015746438651338,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False
+2026-03-13,159837,生物科技ETF,0.001425,0.001424531597756,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,13aba0cf0d328d496a469431bc4dd848676b698b6afff630ad7b9a63774f0231,False

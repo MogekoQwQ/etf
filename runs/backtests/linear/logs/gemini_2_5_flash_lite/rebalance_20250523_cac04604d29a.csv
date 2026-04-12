@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-23,510500,中证500ETF,0.008129,0.0081291981567121,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,159509,纳指科技ETF,0.003741,0.0037410402228798,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,510300,沪深300ETF,0.002667,0.0026665292667287,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,159901,深证100ETF,0.00264,0.0026401441067619,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,513730,东南亚科技ETF,0.002167,0.0021674803458866,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,510180,上证180ETF,0.001814,0.0018138967687397,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,510880,红利ETF,0.001199,0.0011994150491563,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,515700,新能车ETF,0.001168,0.0011676833222463,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,159916,深F60ETF,0.000854,0.0008536922585532,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False
+2025-05-23,159518,标普油气ETF,0.000748,0.0007475165485294,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,cac04604d29afa0ad3adebdb527508c06b0c5150da6c9efc474410eca9fde890,False

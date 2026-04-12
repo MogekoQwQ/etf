@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-23,159529,标普消费ETF,0.013885,0.0138848307275979,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,518850,黄金ETF华夏,0.007148,0.0071483449207318,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,159572,创业板200ETF易方达,0.001454,0.0014539144537999,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,159509,纳指科技ETF,0.000423,0.0004233475252795,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,159847,医疗ETF易方达,-0.000478,-0.0004775623744385,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,515080,中证红利ETF,-0.000598,-0.0005981801346224,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,159916,深F60ETF,-0.0007,-0.0006996442053061,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,510880,红利ETF,-0.000705,-0.0007048044278012,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,510180,上证180ETF,-0.001206,-0.0012061493236279,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False
+2025-05-23,159928,消费ETF,-0.001547,-0.0015466670080675,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,86f5f89fcbf244e586000a9c0b21677b67ea2acd41f5948cacb69bc108d1bd95,False

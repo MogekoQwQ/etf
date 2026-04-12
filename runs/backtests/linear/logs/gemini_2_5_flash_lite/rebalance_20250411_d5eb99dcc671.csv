@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-11,520500,恒生创新药ETF,0.017418,0.0174181261809904,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,512480,半导体ETF,0.016407,0.0164068140261428,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,159518,标普油气ETF,0.01496,0.0149603138484387,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,159995,芯片ETF,0.013338,0.0133384282265264,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,513310,中韩半导体ETF,0.012846,0.0128459517279604,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,588030,科创100指数ETF,0.012389,0.012388674602834,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,159939,信息技术ETF,0.011316,0.0113161404426944,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,515050,5G通信ETF,0.010683,0.0106828992397554,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,513730,东南亚科技ETF,0.009961,0.00996103231401,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False
+2025-04-11,513290,纳指生物科技ETF,0.009297,0.0092969229221061,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,d5eb99dcc6713303e6924d9b0cf88e296757432dfeb802a66647b07c82da93b6,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-13,159518,标普油气ETF,0.007347,0.0073471423333791,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,159502,标普生物科技ETF,0.001465,0.001465140305536,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,512690,酒ETF,0.000726,0.0007256203381944,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,159509,纳指科技ETF,-4.2e-05,-4.154242114115655e-05,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,513060,恒生医疗ETF,-0.000408,-0.000407789089655,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,513730,东南亚科技ETF,-0.000622,-0.0006224407634975,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,520500,恒生创新药ETF,-0.000824,-0.0008235192124426,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,515170,食品饮料ETF,-0.001058,-0.0010577245201841,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,513310,中韩半导体ETF,-0.001075,-0.001075030255864,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False
+2025-06-13,159901,深证100ETF,-0.001607,-0.0016066674777338,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3690e04ba000fcb1d548bd8608a15987f6e05acbb4ab6b02e58ae333bd2aab44,False

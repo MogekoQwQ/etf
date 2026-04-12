@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-31,513310,中韩半导体ETF,0.006537,0.0065374944425771,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,512660,军工ETF,0.006043,0.0060431739547019,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,512980,传媒ETF,0.003686,0.0036864076972555,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,159967,创业板成长ETF,0.003643,0.0036433801704707,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,159847,医疗ETF易方达,0.001112,0.0011123636862096,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,516050,科技龙头ETF,0.000915,0.0009147111361902,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,159687,亚太精选ETF,0.000539,0.0005390042345402,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,159781,科创创业ETF,-1.4e-05,-1.3756733124989473e-05,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,560080,中药ETF,-1.5e-05,-1.522093761404478e-05,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False
+2025-12-31,513730,东南亚科技ETF,-4.9e-05,-4.89190927099214e-05,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,a29e83d2f53a798cb91fac336974f3f5bd0f14925005492138ad4a333972e0f4,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-09-12,159781,科创创业ETF,0.045502,0.0455017437894103,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,515980,人工智能ETF,0.023862,0.0238617161936118,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,516050,科技龙头ETF,0.011326,0.011325588369558,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,513330,恒生互联网ETF,0.00913,0.0091298399937823,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,159520,消费龙头ETF,0.007033,0.0070328477482352,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,517300,沪港深300ETF,0.005997,0.0059966029697488,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,515860,科技ETF基金,0.004199,0.0041993567549337,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,515400,大数据ETF,0.003866,0.0038661077194457,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,513730,东南亚科技ETF,0.003517,0.0035166037794337,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False
+2025-09-12,510180,上证180ETF,0.003316,0.0033164324777071,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,80b39ccb31224e6dd9bb30de22a8ea93476e70f829a1ae297c3fbd29b07efb1a,False

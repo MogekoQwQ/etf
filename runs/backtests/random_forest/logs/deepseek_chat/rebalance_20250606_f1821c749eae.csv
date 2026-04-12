@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-06,159847,医疗ETF易方达,0.002808,0.0028082372475018,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,510180,上证180ETF,0.00048,0.0004800411900252,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,159307,红利低波100ETF,-0.000199,-0.0001991533797135,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,515450,红利低波50ETF,-0.000217,-0.0002169704245957,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,512260,中证500低波动ETF,-0.000224,-0.0002240808259715,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,159910,基本面120ETE,-0.000239,-0.0002391765145066,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,159916,深F60ETF,-0.000276,-0.0002764901596829,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,159520,消费龙头ETF,-0.000507,-0.0005071293436293,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,520550,港股红利低波ETF,-0.000639,-0.0006390369118648,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False
+2025-06-06,515080,中证红利ETF,-0.000794,-0.0007942836394973,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,f1821c749eae643401f99edf69928e8dc29d2f94266f0c6725e5d43570085aba,False

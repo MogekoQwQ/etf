@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-11-28,159502,标普生物科技ETF,0.005934,0.0059341722298042,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,512980,传媒ETF,-0.00082,-0.0008203293190577,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,159518,标普油气ETF,-0.000855,-0.0008552055660424,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,159531,中证2000ETF,-0.001498,-0.0014978292299401,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,159628,国证2000ETF,-0.001896,-0.0018957438839884,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,520550,港股红利低波ETF,-0.001953,-0.0019526634593723,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,159825,农业ETF,-0.002245,-0.002245246685331,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,159715,稀土ETF易方达,-0.002602,-0.0026024017723498,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,512660,军工ETF,-0.002611,-0.0026108728876317,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False
+2025-11-28,515700,新能车ETF,-0.002977,-0.002976931428617,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,a03a8d7352d38ff56e95fd8d65e336b7ae8f4b42fa44faee77ff730ba3a41fba,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-05,159502,标普生物科技ETF,0.003985,0.0039845215713521,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,159871,有色金属ETF,0.002608,0.0026076199264688,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,159910,基本面120ETE,0.002384,0.0023844667960091,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,512750,基本面50ETF,0.001021,0.0010211222988443,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,512010,医药ETF,0.000652,0.0006516657652732,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,520500,恒生创新药ETF,0.000505,0.0005053801307736,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,515450,红利低波50ETF,0.000356,0.0003564028635042,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,562320,沪深300价值ETF,0.000301,0.0003005848370573,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,562000,中证A100ETF基金,-5.4e-05,-5.361384185359346e-05,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False
+2025-12-05,510180,上证180ETF,-0.00022,-0.0002195348900762,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,2a84a3a000d8990cb7726bfbac8b6ec1ac1ad5989ecbe5c7cf24d0b79afdf04f,False

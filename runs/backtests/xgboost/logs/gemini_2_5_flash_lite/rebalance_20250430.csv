@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-04-30,159518,标普油气ETF,0.031589,0.03158882,gemini-2.5-flash-lite
+2025-04-30,513730,东南亚科技ETF,0.021056,0.021056062,gemini-2.5-flash-lite
+2025-04-30,517520,黄金股ETF,0.017027,0.017026737,gemini-2.5-flash-lite
+2025-04-30,159966,创业板价值ETF,0.016944,0.016943676,gemini-2.5-flash-lite
+2025-04-30,159572,创业板200ETF易方达,0.013382,0.013382071,gemini-2.5-flash-lite
+2025-04-30,515050,5G通信ETF,0.0117,0.011699722,gemini-2.5-flash-lite
+2025-04-30,159529,标普消费ETF,0.010203,0.0102031585,gemini-2.5-flash-lite
+2025-04-30,159967,创业板成长ETF,0.009978,0.009977903,gemini-2.5-flash-lite
+2025-04-30,159509,纳指科技ETF,0.009967,0.009967441,gemini-2.5-flash-lite
+2025-04-30,562060,标普红利ETF,0.008607,0.008607109,gemini-2.5-flash-lite

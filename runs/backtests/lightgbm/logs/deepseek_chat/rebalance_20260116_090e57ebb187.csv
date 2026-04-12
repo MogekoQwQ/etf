@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-16,159938,医药卫生ETF,0.95,0.0120258003031827,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,515400,大数据ETF,0.94,0.0113041527919724,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,159883,医疗器械ETF,0.93,0.0053514596513426,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,159847,医疗ETF易方达,0.92,0.0046817912759063,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,159916,深F60ETF,0.91,0.0043706502936081,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,159531,中证2000ETF,0.9,0.0040038165414931,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,515450,红利低波50ETF,0.89,0.0033636477643406,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,159915,创业板ETF,0.88,0.0029547639203711,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,515050,5G通信ETF,0.87,0.00271056026818,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False
+2026-01-16,159852,软件ETF,0.86,0.0026217900613881,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,090e57ebb1878153b16d969ec59243cb648a48b79e4a6899099991a35a5eae75,False

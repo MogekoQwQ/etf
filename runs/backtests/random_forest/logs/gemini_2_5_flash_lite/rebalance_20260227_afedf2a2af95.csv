@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-27,159518,标普油气ETF,0.95,0.0088875643050992,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,515220,煤炭ETE,0.904531,0.0045314287002521,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,159715,稀土ETF易方达,0.893543,0.0035432807232312,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,159847,医疗ETF易方达,0.872878,0.0028775411907981,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,515400,大数据ETF,0.862852,0.0028521562568225,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,518850,黄金ETF华夏,0.852579,0.002579386918679,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,159901,深证100ETF,0.84091,0.0009099578422852,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,520550,港股红利低波ETF,0.830176,0.0001760362416447,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,159837,生物科技ETF,0.830122,0.0001219161384164,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False
+2026-02-27,513290,纳指生物科技ETF,8.248e-06,4.794077643380698e-05,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,afedf2a2af955d551333c1dddab1221c66ca462938b8cc8c610726fb660ae16f,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-31,159715,稀土ETF易方达,0.95,0.01771846,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,159847,医疗ETF易方达,0.94,0.016119754,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,159871,有色金属ETF,0.93,0.0152542135,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,515050,5G通信ETF,0.92,0.014152354,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,513310,中韩半导体ETF,0.91,0.011129426,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,515790,光伏ETF,0.9,0.0069119395,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,159938,医药卫生ETF,0.89,0.0063059162,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,516160,新能源ETF,0.88,0.0062803463,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,517520,黄金股ETF,0.87,0.006211212,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False
+2025-10-31,516050,科技龙头ETF,0.86,0.005159306,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,e76afc053b476da13d08c24958ec5e220ad186e78906fb98656783e232a4ec7c,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-06,512660,军工ETF,0.023904,0.0239035930074754,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,159518,标普油气ETF,0.018688,0.0186876663855935,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,517520,黄金股ETF,0.012035,0.0120352365495098,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,159871,有色金属ETF,0.009716,0.0097159628743418,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,515400,大数据ETF,0.006717,0.0067174590958488,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,518850,黄金ETF华夏,0.006272,0.006272001546805,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,513310,中韩半导体ETF,0.004879,0.0048790410802186,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,513050,中概互联网ETF,0.00351,0.0035098694051422,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,512100,中证1000ETF,0.001625,0.0016245515381829,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False
+2026-02-06,159916,深F60ETF,0.001525,0.0015246957182103,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,d55e3ac38c1b8a060c4e23ac16bc020045e39c1d99603d68c5fb8c201f01aeb2,False

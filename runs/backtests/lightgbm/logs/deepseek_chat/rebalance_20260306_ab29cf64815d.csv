@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-03-06,516670,畜牧养殖ETF,0.101491,0.1014905396750281,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ab29cf64815db013ba9b3c355d3740a337b1771537f68f284f076d26218009cd,False
+2026-03-06,159825,农业ETF,0.046036,0.0460358733722504,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ab29cf64815db013ba9b3c355d3740a337b1771537f68f284f076d26218009cd,False
+2026-03-06,513330,恒生互联网ETF,0.026527,0.0265267082125565,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ab29cf64815db013ba9b3c355d3740a337b1771537f68f284f076d26218009cd,False
+2026-03-06,517520,黄金股ETF,0.019981,0.0199814155760619,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ab29cf64815db013ba9b3c355d3740a337b1771537f68f284f076d26218009cd,False
+2026-03-06,518850,黄金ETF华夏,0.018363,0.0183627755528165,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,ab29cf64815db013ba9b3c355d3740a337b1771537f68f284f076d26218009cd,False

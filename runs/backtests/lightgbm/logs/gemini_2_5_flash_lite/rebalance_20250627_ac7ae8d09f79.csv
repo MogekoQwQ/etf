@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-27,159852,软件ETF,0.012669,0.0126688425234583,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,159687,亚太精选ETF,0.012289,0.0122892919372157,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,516310,银行ETF易方达,0.001316,0.001316250925117,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,510880,红利ETF,0.000476,0.0004760061184243,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,515080,中证红利ETF,-0.000293,-0.0002925291833391,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,159910,基本面120ETE,-0.000322,-0.000321872089823,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,159871,有色金属ETF,-0.000437,-0.0004370402917403,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,159837,生物科技ETF,-0.000629,-0.0006292715197407,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,512980,传媒ETF,-0.000653,-0.0006531014323021,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False
+2025-06-27,159307,红利低波100ETF,-0.001377,-0.001376989008934,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,ac7ae8d09f79de5978882e14c4b68446dddc09e4623039d0f58d1d0c9e80e039,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-25,510500,中证500ETF,0.010191,0.0101909646267576,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,159916,深F60ETF,0.007997,0.0079968721405065,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,510180,上证180ETF,0.006736,0.0067359591758025,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,510880,红利ETF,0.005939,0.0059393866475778,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,517520,黄金股ETF,0.005368,0.0053684487403734,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,510300,沪深300ETF,0.005027,0.0050265396301008,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,159901,深证100ETF,0.004832,0.0048323112762958,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,513630,港股红利指数ETF,0.003875,0.0038752748380127,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,159905,深红利FTE,0.003478,0.0034775563882234,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False
+2025-04-25,159518,标普油气ETF,0.003448,0.0034483904858529,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,983cf02f901a6422464f5ff895d9077ef53b1656fad3f219cf42049cad0ea7a4,False

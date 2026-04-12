@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-18,159572,创业板200ETF易方达,0.038916,0.0389161836306761,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,159518,标普油气ETF,0.030221,0.030221421313884,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,159502,标普生物科技ETF,0.027707,0.0277066122228158,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,159967,创业板成长ETF,0.026984,0.0269838421674907,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,513290,纳指生物科技ETF,0.022223,0.0222229541787949,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,562500,机器人ETF,0.021777,0.021776517799437,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,515400,大数据ETF,0.020555,0.0205545447322818,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,159509,纳指科技ETF,0.019453,0.0194526653141026,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,515050,5G通信ETF,0.018254,0.0182539613765352,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False
+2025-04-18,513730,东南亚科技ETF,0.015835,0.0158346018509258,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,4eeb0c286bc9a765db79fa9e1ad9940446ef6bebfd7bc9ea5f534b2919c0b30a,False

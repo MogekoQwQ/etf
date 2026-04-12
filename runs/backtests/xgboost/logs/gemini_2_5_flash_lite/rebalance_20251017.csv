@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-10-17,513310,中韩半导体ETF,0.015824,0.015824007,gemini-2.5-flash-lite
+2025-10-17,516160,新能源ETF,0.0158,0.01580029,gemini-2.5-flash-lite
+2025-10-17,517520,黄金股ETF,0.010354,0.010354155,gemini-2.5-flash-lite
+2025-10-17,515790,光伏ETF,0.010354,0.010353754,gemini-2.5-flash-lite
+2025-10-17,515220,煤炭ETE,0.008002,0.008001714,gemini-2.5-flash-lite
+2025-10-17,515700,新能车ETF,0.00768,0.007679898,gemini-2.5-flash-lite
+2025-10-17,512980,传媒ETF,0.006984,0.006984311,gemini-2.5-flash-lite
+2025-10-17,159871,有色金属ETF,0.006783,0.0067827837,gemini-2.5-flash-lite
+2025-10-17,562500,机器人ETF,0.00676,0.006759817,gemini-2.5-flash-lite
+2025-10-17,515400,大数据ETF,0.006087,0.0060873544,gemini-2.5-flash-lite

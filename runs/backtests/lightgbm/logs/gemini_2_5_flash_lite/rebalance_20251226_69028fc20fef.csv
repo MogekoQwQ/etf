@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-26,515700,新能车ETF,0.95,0.0116107856144506,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,516160,新能源ETF,0.9,0.0064149276101315,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,159916,深F60ETF,0.85,0.0028443730687113,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,515860,科技ETF基金,0.8,0.002201996441361,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,518850,黄金ETF华夏,0.75,0.0017597781549952,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,510180,上证180ETF,0.7,0.0015898946390398,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,560500,500质量成长ETF,0.65,0.0009264181017966,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,512580,环保ETF,0.6,0.0007973285057754,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,159502,标普生物科技ETF,0.55,-0.0004773936215261,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False
+2025-12-26,159871,有色金属ETF,0.5,-0.0007320526342282,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,69028fc20fefa8d33f66839ccf085559d89bdc14805d54a13b6b25ec33bbe8c3,False

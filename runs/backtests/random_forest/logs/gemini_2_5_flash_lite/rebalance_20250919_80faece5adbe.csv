@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-09-19,513330,恒生互联网ETF,0.02375,0.0237500223987101,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,159781,科创创业ETF,0.020656,0.02065637303153,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,515980,人工智能ETF,0.019025,0.0190251002718373,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,516050,科技龙头ETF,0.013104,0.0131038587631403,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,159715,稀土ETF易方达,0.00683,0.0068301332833434,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,512480,半导体ETF,0.005985,0.0059848085370879,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,517520,黄金股ETF,0.005248,0.0052484447716701,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,159995,芯片ETF,0.004929,0.004928863469818,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,159682,创业50ETF,0.004706,0.0047060782760486,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False
+2025-09-19,562060,标普红利ETF,0.004592,0.0045917070674921,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,80faece5adbe68a555a76e491e276d14420db831c2f4bec7e8f92b015b60825f,False

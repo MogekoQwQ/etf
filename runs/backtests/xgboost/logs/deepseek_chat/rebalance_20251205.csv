@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-12-05,518850,黄金ETF华夏,0.95,0.005349398,deepseek-chat
+2025-12-05,159910,基本面120ETE,0.94,0.004040596,deepseek-chat
+2025-12-05,159871,有色金属ETF,0.93,0.0034788293,deepseek-chat
+2025-12-05,517300,沪港深300ETF,0.92,0.0025665234,deepseek-chat
+2025-12-05,159916,深F60ETF,0.91,0.0009794526,deepseek-chat
+2025-12-05,562320,沪深300价值ETF,0.9,0.0006508732,deepseek-chat
+2025-12-05,512010,医药ETF,0.89,0.00018440951,deepseek-chat
+2025-12-05,510180,上证180ETF,0.88,-0.00037203208,deepseek-chat
+2025-12-05,512750,基本面50ETF,0.87,-0.0005498876,deepseek-chat
+2025-12-05,510880,红利ETF,0.86,-0.00074883737,deepseek-chat

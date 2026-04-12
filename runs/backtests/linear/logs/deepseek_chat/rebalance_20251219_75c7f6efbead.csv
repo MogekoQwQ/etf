@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-19,159502,标普生物科技ETF,0.95,0.0012642278736164,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,516080,创新药ETF易方达,0.94,-0.0007102859102851,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,513290,纳指生物科技ETF,0.93,-0.0011971901088447,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,515750,科技50ETF,0.92,-0.0013803322403118,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,159871,有色金属ETF,0.91,-0.0015435293332882,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,512660,军工ETF,0.9,-0.0015515055951593,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,159825,农业ETF,0.89,-0.0021623842952875,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,159518,标普油气ETF,0.88,-0.0022321616313707,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,159837,生物科技ETF,0.87,-0.002372465017888,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False
+2025-12-19,159847,医疗ETF易方达,0.86,-0.0025331463210731,deepseek-chat,linear,Y_future_5d_return,default,50,10,75c7f6efbeadfd9fd95a3a53303849dca5ce2035460a1f323eb3dd09f0570bfe,False

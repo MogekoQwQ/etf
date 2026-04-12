@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-16,510880,红利ETF,0.002155,-0.0021545027844547,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,513310,中韩半导体ETF,0.002129,-0.002128952148989,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,159529,标普消费ETF,0.002071,-0.0020707685268383,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,513730,东南亚科技ETF,0.001915,-0.0019146346664187,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,159915,创业板ETF,0.001719,-0.0017187359499534,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,516160,新能源ETF,0.001623,-0.0016230035030815,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,159502,标普生物科技ETF,0.001605,-0.0016049252473706,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,159531,中证2000ETF,0.001506,-0.001505648089947,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,513290,纳指生物科技ETF,0.001478,-0.0014775211643542,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False
+2025-05-16,159509,纳指科技ETF,0.001163,-0.0011634213092382,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,08d9f689a9870c458e416ef89df167df786128631ffa8fc7407a6576e8069ad5,False

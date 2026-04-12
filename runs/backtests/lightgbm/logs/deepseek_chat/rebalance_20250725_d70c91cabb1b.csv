@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-25,588000,科创50ETF,0.95,0.0072980372158601,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d70c91cabb1b39f9b8f8b17bd74fc53578d9f6daf1a738c68d1cc389a17f22aa,False
+2025-07-25,159837,生物科技ETF,0.85,0.0032837451843546,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d70c91cabb1b39f9b8f8b17bd74fc53578d9f6daf1a738c68d1cc389a17f22aa,False
+2025-07-25,515980,人工智能ETF,0.75,-0.000790782212972,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d70c91cabb1b39f9b8f8b17bd74fc53578d9f6daf1a738c68d1cc389a17f22aa,False
+2025-07-25,159847,医疗ETF易方达,0.65,-0.0028475963398751,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d70c91cabb1b39f9b8f8b17bd74fc53578d9f6daf1a738c68d1cc389a17f22aa,False
+2025-07-25,516080,创新药ETF易方达,0.55,-0.0043439531823456,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,d70c91cabb1b39f9b8f8b17bd74fc53578d9f6daf1a738c68d1cc389a17f22aa,False

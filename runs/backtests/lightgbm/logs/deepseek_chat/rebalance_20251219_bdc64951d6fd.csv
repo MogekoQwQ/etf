@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-19,159916,深F60ETF,0.003722,0.0037215509184353,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,bdc64951d6fdbfbd375fd3429b1574f0fb0f899f96134e9d469422559bfed30a,False
+2025-12-19,515860,科技ETF基金,0.003015,0.0030147448590964,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,bdc64951d6fdbfbd375fd3429b1574f0fb0f899f96134e9d469422559bfed30a,False
+2025-12-19,159910,基本面120ETE,0.001155,0.0011554367022411,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,bdc64951d6fdbfbd375fd3429b1574f0fb0f899f96134e9d469422559bfed30a,False
+2025-12-19,159928,消费ETF,0.001058,0.0010575799663085,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,bdc64951d6fdbfbd375fd3429b1574f0fb0f899f96134e9d469422559bfed30a,False
+2025-12-19,516050,科技龙头ETF,0.000945,0.0009449350521659,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,bdc64951d6fdbfbd375fd3429b1574f0fb0f899f96134e9d469422559bfed30a,False

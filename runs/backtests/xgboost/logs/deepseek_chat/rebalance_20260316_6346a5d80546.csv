@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-03-16,159871,有色金属ETF,0.011409,0.011408817,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,516050,科技龙头ETF,0.008594,0.008593651,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,512580,环保ETF,0.007299,0.007299297,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,588000,科创50ETF,0.005827,0.0058265286,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,562000,中证A100ETF基金,0.005753,0.005752931,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,560500,500质量成长ETF,0.005496,0.005496277,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,159837,生物科技ETF,0.005414,0.005414315,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,563000,中国A50ETF,0.003411,0.0034105484,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,512010,医药ETF,0.003332,0.0033324491,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False
+2026-03-16,516160,新能源ETF,0.00312,0.003119593,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,6346a5d8054656bbbaee0f40f5b66f252d8b7b7decb95c974e0bdbe512a38562,False

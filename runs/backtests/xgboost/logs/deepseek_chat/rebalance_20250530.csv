@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-05-30,159509,纳指科技ETF,0.95,0.0072776135,deepseek-chat
+2025-05-30,516080,创新药ETF易方达,0.94,-0.0069956104,deepseek-chat
+2025-05-30,562060,标普红利ETF,0.93,-0.0020597482,deepseek-chat
+2025-05-30,159691,港股红利ETF,0.92,-0.005526109,deepseek-chat
+2025-05-30,520550,港股红利低波ETF,0.91,-0.0026896482,deepseek-chat
+2025-05-30,159531,中证2000ETF,0.9,-0.0074354243,deepseek-chat
+2025-05-30,512660,军工ETF,0.89,-0.00964164,deepseek-chat
+2025-05-30,512010,医药ETF,0.88,-0.009175938,deepseek-chat
+2025-05-30,159572,创业板200ETF易方达,0.87,-0.0053144293,deepseek-chat
+2025-05-30,560080,中药ETF,0.86,-0.009141858,deepseek-chat

@@ -77,7 +77,6 @@ $RECYCLE.BIN/
 # 日志文件
 *.log
 *.log.*
-logs/
 
 # 临时文件
 *.tmp

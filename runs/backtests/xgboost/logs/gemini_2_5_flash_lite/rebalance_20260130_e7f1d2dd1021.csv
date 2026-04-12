@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-30,159871,有色金属ETF,0.01571,0.0157101,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,517520,黄金股ETF,0.00651,0.0065095513,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,562500,机器人ETF,0.005929,0.005929119,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,159915,创业板ETF,0.004566,0.0045663253,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,159852,软件ETF,0.004338,0.0043375534,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,513060,恒生医疗ETF,0.004305,0.004305111,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,512260,中证500低波动ETF,0.004169,0.0041685756,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,159916,深F60ETF,0.003762,0.0037623043,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,159691,港股红利ETF,0.002943,0.0029434948,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False
+2026-01-30,159938,医药卫生ETF,-0.007057,-0.0010368059,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,e7f1d2dd102197407efb47877c78417403dc0f0db8d5286ef9421102a54aebba,False

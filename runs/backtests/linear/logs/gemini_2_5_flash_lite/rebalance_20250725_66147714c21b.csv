@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-25,159847,医疗ETF易方达,0.95,-0.0026099244947344,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,513310,中韩半导体ETF,0.94,-0.0028470918945034,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,510880,红利ETF,0.93,-0.0029734564117492,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,159995,芯片ETF,0.92,-0.0044331638645487,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,159691,港股红利ETF,0.91,-0.0046377117967479,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,513730,东南亚科技ETF,0.9,-0.0046777047280539,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,159307,红利低波100ETF,0.89,-0.0047541368293263,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,159883,医疗器械ETF,0.88,-0.0049126038703652,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,515080,中证红利ETF,0.87,-0.0049422702729187,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False
+2025-07-25,513630,港股红利指数ETF,0.86,-0.0050523596968318,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,66147714c21b9cae6e697f1f9d92450c67f1b22dba3b2e3d0192a90aa577caec,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-16,159509,纳指科技ETF,0.95,0.017468726,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,516310,银行ETF易方达,0.94,0.013254412,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,159871,有色金属ETF,0.93,0.0028066225,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,515860,科技ETF基金,0.92,0.0007673384,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,159905,深红利FTE,0.91,0.00021906936,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,515450,红利低波50ETF,0.9,-1.02062895e-05,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,510880,红利ETF,0.89,-0.00049052143,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,159307,红利低波100ETF,0.88,-0.0006198217,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,512260,中证500低波动ETF,0.87,-0.00068426796,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False
+2025-05-16,512010,医药ETF,0.86,-0.0006851006,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,f5ea34bdf964e60cc8a821dc8b762274acc84690ed67d9f908252f108da19dc5,False

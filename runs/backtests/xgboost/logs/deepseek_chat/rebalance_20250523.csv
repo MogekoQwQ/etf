@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-05-23,159509,纳指科技ETF,0.95,0.0075530363,deepseek-chat
+2025-05-23,513730,东南亚科技ETF,0.94,-0.005214473,deepseek-chat
+2025-05-23,513050,中概互联网ETF,0.93,-0.0004113923,deepseek-chat
+2025-05-23,159529,标普消费ETF,0.92,-0.009342183,deepseek-chat
+2025-05-23,159915,创业板ETF,0.91,-0.009523478,deepseek-chat
+2025-05-23,159687,亚太精选ETF,0.9,-0.00203738,deepseek-chat
+2025-05-23,520550,港股红利低波ETF,0.89,-0.0021683376,deepseek-chat
+2025-05-23,159715,稀土ETF易方达,0.88,-0.0018655905,deepseek-chat
+2025-05-23,516310,银行ETF易方达,0.87,-0.005504257,deepseek-chat
+2025-05-23,515050,5G通信ETF,0.86,-0.0061597503,deepseek-chat

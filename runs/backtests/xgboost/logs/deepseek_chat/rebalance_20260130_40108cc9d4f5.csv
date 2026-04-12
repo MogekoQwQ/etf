@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-30,518850,黄金ETF华夏,0.95,0.028768485,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,159518,标普油气ETF,0.94,0.028408805,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,512690,酒ETF,0.93,0.028399134,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,159715,稀土ETF易方达,0.92,0.019930974,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,159871,有色金属ETF,0.91,0.0157101,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,512660,军工ETF,0.9,0.012399799,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,515790,光伏ETF,0.89,0.011013907,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,159967,创业板成长ETF,0.88,0.010146281,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,515220,煤炭ETE,0.87,0.009716363,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False
+2026-01-30,517520,黄金股ETF,0.86,0.0065095513,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,40108cc9d4f5935266537b9c0deae75b3f9a49f58edc2699462191256fe95a7a,False

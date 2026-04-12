@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-31,159871,有色金属ETF,0.022806,0.0228059432809739,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,517520,黄金股ETF,0.020116,0.0201158282349112,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,515050,5G通信ETF,0.01989,0.0198897418535352,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,159715,稀土ETF易方达,0.016119,0.0161187320814368,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,159938,医药卫生ETF,0.014927,0.0149273974560789,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,159847,医疗ETF易方达,0.01264,0.0126402061511309,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,520500,恒生创新药ETF,0.01182,0.0118199068799572,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,562060,标普红利ETF,0.01068,0.0106798806124236,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,563020,红利低波动ETF,0.010021,0.0100210551602304,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False
+2025-10-31,159967,创业板成长ETF,0.00924,0.0092395422176997,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ccbe20ae2dc099348299ed0830c09ca54583f17f4bc550ae14751cd8d76e5530,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-27,159518,标普油气ETF,0.025557,0.0255567052645499,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,518850,黄金ETF华夏,0.007355,0.0073547661515897,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,515400,大数据ETF,0.000694,0.0006942121514909,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,510050,上证50ETF,0.00042,0.0004202548272424,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,159903,深成ETF,-0.000417,-0.0004169661668723,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,159307,红利低波100ETF,-0.000827,-0.0008268468966414,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,512750,基本面50ETF,-0.000855,-0.0008551542996056,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,562310,沪深300成长ETF,-0.000859,-0.0008590136130204,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,562320,沪深300价值ETF,-0.000909,-0.0009089975657333,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False
+2026-02-27,520550,港股红利低波ETF,-0.00092,-0.0009195577117709,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,8f47c29e5663dbd822dfddae62808c4304af9b71cea8e9db6416b2367567b155,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-27,159518,标普油气ETF,0.023229,0.023229165,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,515220,煤炭ETE,0.003442,0.003442358,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,512750,基本面50ETF,0.001489,0.0014893551,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,159966,创业板价值ETF,0.00067,0.0006699378,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,512010,医药ETF,-0.000107,-0.00010748605,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,562000,中证A100ETF基金,-0.000416,-0.0004161343,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,159910,基本面120ETE,-0.000731,-0.0007309076,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,515450,红利低波50ETF,-0.00088,-0.0008803445,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,159847,医疗ETF易方达,-0.000887,-0.0008866722,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False
+2026-02-27,562320,沪深300价值ETF,-0.00095,-0.00095049426,deepseek-chat,xgboost,Y_future_5d_return,default,50,10,ae952c2627cfcc9aee57d920d30535ee824f94cbca049e34102e878d958bbec9,False

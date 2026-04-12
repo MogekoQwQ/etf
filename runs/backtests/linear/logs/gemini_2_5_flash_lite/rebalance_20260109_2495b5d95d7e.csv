@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-09,512980,传媒ETF,0.005609,0.0056090331270246,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,515400,大数据ETF,0.001863,0.001862727502569,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,159852,软件ETF,-0.000107,-0.0001066623794878,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,515980,人工智能ETF,-0.000142,-0.0001417473902273,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,159871,有色金属ETF,-0.000246,-0.0002464965125417,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,159916,深F60ETF,-0.000512,-0.0005117746148112,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,159847,医疗ETF易方达,-0.000523,-0.0005234053408138,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,159715,稀土ETF易方达,-0.001187,-0.0011865792590056,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,560500,500质量成长ETF,-0.002544,-0.0025437695083827,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False
+2026-01-09,159502,标普生物科技ETF,-0.002721,-0.0027214812330565,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,2495b5d95d7e58b9c28136dc156c92a0659ae94f60ae23ff8a60a0e0567e00fc,False

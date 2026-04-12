@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-18,159966,创业板价值ETF,0.023706,0.0237064738732953,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,512260,中证500低波动ETF,0.016635,0.0166351565202958,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,510300,沪深300ETF,0.016333,0.0163325683872644,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,159883,医疗器械ETF,0.01243,0.0124296016927693,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,159715,稀土ETF易方达,0.011824,0.0118240311372516,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,159509,纳指科技ETF,0.00845,0.0084495213690889,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,515800,800FTE,0.006884,0.0068843960925716,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,159910,基本面120ETE,0.005873,0.0058733026224014,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,562310,沪深300成长ETF,0.005302,0.005301948591293,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False
+2025-07-18,562000,中证A100ETF基金,0.005247,0.0052471343615249,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,5772bdc566962919bcd1078152f26023ea6ecd31c9c5510a2c3542db0b54b08b,False

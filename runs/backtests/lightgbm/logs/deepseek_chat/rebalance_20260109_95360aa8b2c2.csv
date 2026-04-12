@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-09,513310,中韩半导体ETF,0.95,0.0208811041341963,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,512980,传媒ETF,0.9,0.0134607089034133,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,159715,稀土ETF易方达,0.85,0.0015006603014236,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,512100,中证1000ETF,0.8,0.0054150452085781,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,159572,创业板200ETF易方达,0.75,0.0019767941142481,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,515400,大数据ETF,0.7,-0.0015829983202829,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,159628,国证2000ETF,0.65,0.0025508823589979,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,159531,中证2000ETF,0.6,0.0046810991265713,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,159995,芯片ETF,0.55,-0.0001187108629009,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False
+2026-01-09,515700,新能车ETF,0.5,0.0057889441514233,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,95360aa8b2c20c57e8fcb08dc8c8420b5a04d15d3284943c18d81b9ca0d778d5,False

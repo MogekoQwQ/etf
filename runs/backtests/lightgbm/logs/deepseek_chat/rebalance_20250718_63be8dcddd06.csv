@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-18,510760,上证综指ETF,0.95,0.0043754682667724,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,63be8dcddd065072bcff38e8f1385054ca1d25e636daa7a79dbb7b068aaf67e7,False
+2025-07-18,520500,恒生创新药ETF,0.94,0.0041698754093513,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,63be8dcddd065072bcff38e8f1385054ca1d25e636daa7a79dbb7b068aaf67e7,False
+2025-07-18,159509,纳指科技ETF,0.93,0.003037146569378,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,63be8dcddd065072bcff38e8f1385054ca1d25e636daa7a79dbb7b068aaf67e7,False
+2025-07-18,513730,东南亚科技ETF,0.92,0.0022837697460129,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,63be8dcddd065072bcff38e8f1385054ca1d25e636daa7a79dbb7b068aaf67e7,False
+2025-07-18,515580,科技100ETF,0.91,0.0022058786773248,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,63be8dcddd065072bcff38e8f1385054ca1d25e636daa7a79dbb7b068aaf67e7,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-20,513060,恒生医疗ETF,0.008865,0.0088651049930752,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,159916,深F60ETF,3.5e-05,3.4855449255561217e-05,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,510180,上证180ETF,-0.000332,-0.0003319247477252,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,159910,基本面120ETE,-0.000528,-0.0005279503179485,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,515450,红利低波50ETF,-0.000671,-0.0006706479889768,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,515080,中证红利ETF,-0.00072,-0.0007202169273461,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,510880,红利ETF,-0.000735,-0.0007352746479622,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,512260,中证500低波动ETF,-0.001254,-0.0012540191652391,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,159687,亚太精选ETF,-0.001319,-0.001319197987188,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False
+2025-06-20,515050,5G通信ETF,-0.001407,-0.0014073483288891,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,9a2a715d7be8cbeb6e22c0b5f321a6c9bbfa8fd600dcd449ad85cb32e2764481,False

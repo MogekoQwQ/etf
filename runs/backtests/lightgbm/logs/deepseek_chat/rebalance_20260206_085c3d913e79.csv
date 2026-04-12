@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-06,512660,军工ETF,0.95,0.0239035930074754,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,085c3d913e798f9c0f91a4911e3c70ab2daf0dd502f5d54ab77b30afe9e6dc6c,False
+2026-02-06,159518,标普油气ETF,0.94,0.0186876663855935,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,085c3d913e798f9c0f91a4911e3c70ab2daf0dd502f5d54ab77b30afe9e6dc6c,False
+2026-02-06,517520,黄金股ETF,0.93,0.0120352365495098,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,085c3d913e798f9c0f91a4911e3c70ab2daf0dd502f5d54ab77b30afe9e6dc6c,False
+2026-02-06,159871,有色金属ETF,0.92,0.0097159628743418,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,085c3d913e798f9c0f91a4911e3c70ab2daf0dd502f5d54ab77b30afe9e6dc6c,False
+2026-02-06,515400,大数据ETF,0.91,0.0067174590958488,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,085c3d913e798f9c0f91a4911e3c70ab2daf0dd502f5d54ab77b30afe9e6dc6c,False

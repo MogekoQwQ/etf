@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-03-16,588000,科创50ETF,0.00496,0.0049598342562946,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,516160,新能源ETF,0.004304,0.0043041718577225,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,516050,科技龙头ETF,0.003512,0.0035124237542064,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,159871,有色金属ETF,0.003466,0.0034662023771972,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,512580,环保ETF,0.003405,0.0034051566466358,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,515010,券商ETF基金,0.002838,0.0028376712315686,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,562000,中证A100ETF基金,0.002715,0.0027145035863262,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,560500,500质量成长ETF,0.002376,0.0023762239632674,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,563000,中国A50ETF,0.002135,0.0021350224997195,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False
+2026-03-16,515050,5G通信ETF,0.001819,0.0018193293377933,deepseek-chat,lightgbm,Y_future_5d_return,default,50,10,ba83bae36b36c373027060d6ca120a496d0744dd6032ed3ce997875aced9f3e6,False

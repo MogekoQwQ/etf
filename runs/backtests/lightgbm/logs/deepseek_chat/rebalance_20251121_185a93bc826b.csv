@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-11-21,516160,新能源ETF,0.95,0.0218555881686393,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,185a93bc826b39605ff9a3fb4f897492fe72224bfa233a7809658267ba347c60,False
+2025-11-21,159915,创业板ETF,0.85,0.0176861023204318,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,185a93bc826b39605ff9a3fb4f897492fe72224bfa233a7809658267ba347c60,False
+2025-11-21,159715,稀土ETF易方达,0.75,0.0120602502992486,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,185a93bc826b39605ff9a3fb4f897492fe72224bfa233a7809658267ba347c60,False
+2025-11-21,159871,有色金属ETF,0.65,0.011564241116048,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,185a93bc826b39605ff9a3fb4f897492fe72224bfa233a7809658267ba347c60,False
+2025-11-21,512580,环保ETF,0.55,0.0113336732389443,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,185a93bc826b39605ff9a3fb4f897492fe72224bfa233a7809658267ba347c60,False

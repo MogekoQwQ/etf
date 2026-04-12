@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-31,513310,中韩半导体ETF,0.017266,0.0172663216783455,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,159871,有色金属ETF,0.017102,0.0171020359319387,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,515050,5G通信ETF,0.016645,0.0166451881434995,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,159715,稀土ETF易方达,0.016041,0.0160414017580715,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,159967,创业板成长ETF,0.0086,0.0085995153070796,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,159938,医药卫生ETF,0.008412,0.0084121209870262,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,159847,医疗ETF易方达,0.007136,0.0071360112100258,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,520500,恒生创新药ETF,0.006999,0.0069993664125185,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,159509,纳指科技ETF,0.006229,0.0062292992599238,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False
+2025-10-31,516050,科技龙头ETF,0.006074,0.0060735051375984,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,5bb59db23338ef25bb334bd86de39ba69347412a91defb28482bd8df5cc582cb,False

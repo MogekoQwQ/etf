@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-09,513290,纳指生物科技ETF,0.95,0.0009059740018443,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,159687,亚太精选ETF,0.94,0.0005182260600346,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,510880,红利ETF,0.93,0.0003537419130276,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,159502,标普生物科技ETF,0.92,-0.0014301768032642,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,516310,银行ETF易方达,0.91,-0.0018556229385326,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,159691,港股红利ETF,0.9,-0.0026309913087714,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,520500,恒生创新药ETF,0.89,-0.0026372934964432,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,513630,港股红利指数ETF,0.88,-0.0028560487271905,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,159939,信息技术ETF,0.87,-0.0028816054195346,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False
+2025-05-09,510180,上证180ETF,0.86,-0.0029154054146278,deepseek-chat,linear,Y_future_5d_return,default,50,10,95ea30538940da104097f83cd8953f1158a2b6e588bc1a7efa3a414af509801d,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-19,159967,创业板成长ETF,3.044747,-0.003386695852708,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,512660,军工ETF,2.045773,-0.0015515055951593,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,515860,科技ETF基金,1.665177,-0.0045172549103382,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,159871,有色金属ETF,1.586389,-0.0015435293332882,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,159781,科创创业ETF,1.575072,-0.0051024440615488,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,159502,标普生物科技ETF,0.992255,0.0012642278736164,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,159531,中证2000ETF,0.960271,-0.0044900431934377,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,515750,科技50ETF,0.737735,-0.0013803322403118,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,513290,纳指生物科技ETF,0.419735,-0.0011971901088447,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False
+2025-12-19,515010,券商ETF基金,0.141709,-0.0047176918437334,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,bf215d5a6a2b7eaf8fca70c73b9eedf2c216b955f75b5206447d691205acc8be,False

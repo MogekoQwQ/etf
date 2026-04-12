@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-03-06,516670,畜牧养殖ETF,0.95,0.0089810860317189,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,159825,农业ETF,0.94,0.0086359396955077,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,512660,军工ETF,0.93,0.0068065256444366,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,517520,黄金股ETF,0.92,0.0061974839946665,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,516080,创新药ETF易方达,0.91,0.0048516117094184,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,159837,生物科技ETF,0.9,0.0043589221097514,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,159883,医疗器械ETF,0.89,0.0041645905779953,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,512010,医药ETF,0.88,0.0041194946880317,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,159928,消费ETF,0.87,0.0037682900599183,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False
+2026-03-06,512290,生物医药ETF,0.86,0.0034153570436225,deepseek-chat,linear,Y_future_5d_return,default,50,10,91a13a4132815e586615c6119aff8f3cf55819ba47aad467a21d36b0c5d521de,False

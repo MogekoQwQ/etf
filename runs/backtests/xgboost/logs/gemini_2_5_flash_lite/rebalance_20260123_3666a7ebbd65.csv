@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-23,516160,新能源ETF,0.042745,0.04274477,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,510300,沪深300ETF,0.041059,0.041058935,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,512580,环保ETF,0.040062,0.04006181,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,560500,500质量成长ETF,0.02844,0.028440159,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,512100,中证1000ETF,0.018457,0.018456724,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,159847,医疗ETF易方达,0.013625,0.013624815,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,159531,中证2000ETF,0.009099,0.009098816,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,562060,标普红利ETF,0.007196,0.0071962294,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,515790,光伏ETF,0.007183,0.007183089,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False
+2026-01-23,159915,创业板ETF,0.006909,0.006909431,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,3666a7ebbd65b62c73952b623842dd561a3adf37b5ae75ff7d2447fd38f60c12,False

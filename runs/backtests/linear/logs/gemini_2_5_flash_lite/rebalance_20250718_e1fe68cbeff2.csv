@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-18,159715,稀土ETF易方达,0.95,0.0021558124474647,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,159518,标普油气ETF,0.94,0.0031745652782497,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,510300,沪深300ETF,0.93,-0.0062385901421628,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,510500,中证500ETF,0.92,-0.0044459876421427,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,159916,深F60ETF,0.91,0.0011597299739677,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,516160,新能源ETF,0.9,-0.004457578152543,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,159871,有色金属ETF,0.89,-0.0045220901207864,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,510180,上证180ETF,0.88,-0.0035843612011285,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,159905,深红利FTE,0.87,-0.0040657734628635,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False
+2025-07-18,510880,红利ETF,0.86,-0.0012553124112139,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,e1fe68cbeff2ac037f308efcc9ec18659cd8667e19eaf6910e49af3c40a5ed2e,False

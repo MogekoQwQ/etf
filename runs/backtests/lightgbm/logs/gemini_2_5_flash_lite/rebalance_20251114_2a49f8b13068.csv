@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-11-14,516160,新能源ETF,1.0,-0.0020142350143128,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,513290,纳指生物科技ETF,0.9999999999999998,0.0015783255163892,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,513310,中韩半导体ETF,0.9999999999999996,0.0060361429306796,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,159871,有色金属ETF,0.9999999999999996,0.0107295764999517,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,513630,港股红利指数ETF,0.9999999999999994,-0.0008065137343677,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,159628,国证2000ETF,0.9999999999999994,-0.0004365624940065,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,562320,沪深300价值ETF,0.9999999999999992,0.000984949895844,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,159531,中证2000ETF,0.9999999999999992,-0.0008948821485098,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,563020,红利低波动ETF,0.9999999999999992,-0.0010402735150831,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False
+2025-11-14,515450,红利低波50ETF,0.999999999999999,-0.0010528636573615,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2a49f8b130682ff2ef2e890d9edcf41c4e5aefaeb92d8bfc23c7ff56c8901e68,False

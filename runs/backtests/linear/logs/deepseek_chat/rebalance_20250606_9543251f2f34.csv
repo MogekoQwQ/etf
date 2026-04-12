@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-06-06,159916,深F60ETF,0.002405,0.0024049245862305,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,510880,红利ETF,0.000813,0.0008130007412616,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,159509,纳指科技ETF,0.000149,0.0001486382989554,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,159502,标普生物科技ETF,-0.000199,-0.000198764434551,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,159518,标普油气ETF,-0.001108,-0.0011077612738174,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,510180,上证180ETF,-0.001313,-0.0013126057118769,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,510300,沪深300ETF,-0.001452,-0.0014515619082976,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,513290,纳指生物科技ETF,-0.001546,-0.0015456928848831,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,510500,中证500ETF,-0.002068,-0.0020678318621219,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False
+2025-06-06,510050,上证50ETF,-0.002463,-0.0024625864306418,deepseek-chat,linear,Y_future_5d_return,default,50,10,9543251f2f34e21e4ae94c16f9ece50e9460942d36d13c81edb998fa8c6d6cee,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-04-11,159518,标普油气ETF,0.95,0.03962592,deepseek-chat
+2025-04-11,159502,标普生物科技ETF,0.94,0.037605714,deepseek-chat
+2025-04-11,513730,东南亚科技ETF,0.93,0.027560571,deepseek-chat
+2025-04-11,159509,纳指科技ETF,0.92,0.026771802,deepseek-chat
+2025-04-11,159572,创业板200ETF易方达,0.91,0.02442915,deepseek-chat
+2025-04-11,159852,软件ETF,0.9,0.020929158,deepseek-chat
+2025-04-11,513290,纳指生物科技ETF,0.89,0.02003273,deepseek-chat
+2025-04-11,512480,半导体ETF,0.88,0.018148767,deepseek-chat
+2025-04-11,159966,创业板价值ETF,0.87,0.01678902,deepseek-chat
+2025-04-11,518850,黄金ETF华夏,0.86,0.016738817,deepseek-chat

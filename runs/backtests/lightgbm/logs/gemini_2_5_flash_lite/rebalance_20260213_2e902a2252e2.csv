@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-13,159518,标普油气ETF,0.014165,0.0141649399263991,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,518850,黄金ETF华夏,0.011939,0.0119391302075379,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,515220,煤炭ETE,0.005587,0.0055873642435197,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,513050,中概互联网ETF,0.002046,0.0020462423919682,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,562320,沪深300价值ETF,0.00114,0.001140145451888,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,512750,基本面50ETF,0.00045,0.000450395686171,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,159916,深F60ETF,0.000416,0.0004163438070959,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,513970,恒生消费ETF,0.000325,0.0003247895140656,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,159520,消费龙头ETF,0.000145,0.000145449727184,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False
+2026-02-13,510180,上证180ETF,5.4e-05,5.399452532764466e-05,gemini-2.5-flash-lite,lightgbm,Y_future_5d_return,default,50,10,2e902a2252e2bf45228e0467a7430034d6c2c8fb236f83267b13e4b9ef2e30fd,False

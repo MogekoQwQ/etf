@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm
+2025-07-11,159715,稀土ETF易方达,0.95,0.022120947,deepseek-chat
+2025-07-11,159847,医疗ETF易方达,0.94,0.016356628,deepseek-chat
+2025-07-11,159928,消费ETF,0.93,0.006102041,deepseek-chat
+2025-07-11,512010,医药ETF,0.92,0.004012782,deepseek-chat
+2025-07-11,159837,生物科技ETF,0.91,0.0025204977,deepseek-chat
+2025-07-11,159871,有色金属ETF,0.9,0.0017233553,deepseek-chat
+2025-07-11,512290,生物医药ETF,0.89,0.0017181112,deepseek-chat
+2025-07-11,159852,软件ETF,0.88,0.0002875317,deepseek-chat
+2025-07-11,518850,黄金ETF华夏,0.87,8.220766e-06,deepseek-chat
+2025-07-11,515650,消费50ETF,0.86,-0.000374505,deepseek-chat

@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-10-10,516160,新能源ETF,0.020021,0.0200212872228833,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,40303942ebed31953d434f4f4eb57ef84ff378f909f8f5e743b54408055da7df,False
+2025-10-10,588030,科创100指数ETF,0.018082,0.0180821794140007,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,40303942ebed31953d434f4f4eb57ef84ff378f909f8f5e743b54408055da7df,False
+2025-10-10,515700,新能车ETF,0.016496,0.0164963490850944,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,40303942ebed31953d434f4f4eb57ef84ff378f909f8f5e743b54408055da7df,False
+2025-10-10,512580,环保ETF,0.015271,0.0152712803326262,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,40303942ebed31953d434f4f4eb57ef84ff378f909f8f5e743b54408055da7df,False
+2025-10-10,159529,标普消费ETF,0.014802,0.0148021009208732,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,40303942ebed31953d434f4f4eb57ef84ff378f909f8f5e743b54408055da7df,False

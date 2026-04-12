@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-07-25,588000,科创50ETF,0.015505,0.0155052237674325,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,560500,500质量成长ETF,0.015479,0.0154794674860772,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,510300,沪深300ETF,0.012986,0.0129863385235052,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,515800,800FTE,0.008434,0.0084340536363759,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,159201,自由现金流FTE,0.007731,0.0077313577827347,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,159847,医疗ETF易方达,0.007676,0.0076762152230524,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,515220,煤炭ETE,0.006777,0.0067772966445124,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,159930,能源ETF,0.00628,0.0062800241732255,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,159837,生物科技ETF,0.005848,0.005848206369087,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False
+2025-07-25,515750,科技50ETF,0.00553,0.0055300659706123,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,0796bdebae64bedb9914e40c3289cbb25927a24839deed15eade2cb4fc74d4ae,False

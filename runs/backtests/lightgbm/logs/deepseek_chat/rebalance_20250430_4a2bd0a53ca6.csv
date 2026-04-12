@@ -1,0 +1,6 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-30,159518,标普油气ETF,0.95,0.0331041322686533,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,4a2bd0a53ca6ed73c8e984d8b661d5442aca305696b9e8935333399646123f86,False
+2025-04-30,159572,创业板200ETF易方达,0.94,0.0149058574228033,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,4a2bd0a53ca6ed73c8e984d8b661d5442aca305696b9e8935333399646123f86,False
+2025-04-30,515050,5G通信ETF,0.93,0.0121836258531931,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,4a2bd0a53ca6ed73c8e984d8b661d5442aca305696b9e8935333399646123f86,False
+2025-04-30,513730,东南亚科技ETF,0.92,0.0121806018840635,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,4a2bd0a53ca6ed73c8e984d8b661d5442aca305696b9e8935333399646123f86,False
+2025-04-30,159682,创业50ETF,0.91,0.0093838092688031,deepseek-chat,lightgbm,Y_future_5d_return,top50_top5,50,5,4a2bd0a53ca6ed73c8e984d8b661d5442aca305696b9e8935333399646123f86,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-04-18,510500,中证500ETF,0.009738,0.0097381011680535,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,159509,纳指科技ETF,0.006424,0.006423766749469,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,510880,红利ETF,0.006327,0.0063272574121684,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,510180,上证180ETF,0.005433,0.005433246910111,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,517520,黄金股ETF,0.004196,0.0041963125026359,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,516310,银行ETF易方达,0.00367,0.0036701190644269,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,159916,深F60ETF,0.003442,0.0034420322024033,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,515450,红利低波50ETF,0.002981,0.0029812570122049,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,515080,中证红利ETF,0.002677,0.002676773279403,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False
+2025-04-18,159901,深证100ETF,0.002437,0.0024365147034661,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,0a62d6fd4bc401a47b7fd0adf673198e5a9ce89b2e3a246c2911128e0ae45dad,False

@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-30,159509,纳指科技ETF,0.007278,0.0072776135,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,159905,深红利FTE,0.001285,0.0012853844,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,510180,上证180ETF,0.001103,0.0011033579,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,515860,科技ETF基金,0.001044,0.0010437048,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,159307,红利低波100ETF,-0.000347,-0.00034650735,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,562000,中证A100ETF基金,-0.000686,-0.0006861847,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,512260,中证500低波动ETF,-0.001207,-0.0012069613,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,510880,红利ETF,-0.001604,-0.0016039761,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,159687,亚太精选ETF,-0.001901,-0.0019007792,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False
+2025-05-30,562060,标普红利ETF,-0.00206,-0.0020597482,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,4b5ca78f472db9dbde941a0c837d4fe3148dae296ce750e9067312dc5702410d,False

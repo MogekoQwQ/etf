@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-12,518850,黄金ETF华夏,0.012534,0.012534015,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,516050,科技龙头ETF,0.010377,0.01037686,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,159509,纳指科技ETF,0.004661,0.0046608206,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,159502,标普生物科技ETF,0.004449,0.00444902,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,515700,新能车ETF,0.004303,0.0043025375,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,515170,食品饮料ETF,0.003829,0.0038293803,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,159910,基本面120ETE,0.003442,0.0034417326,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,515450,红利低波50ETF,0.002599,0.00259885,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,512260,中证500低波动ETF,0.002525,0.0025251862,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False
+2025-12-12,159905,深红利FTE,0.00152,0.0015203818,gemini-2.5-flash-lite,xgboost,Y_future_5d_return,default,50,10,51c484335a2af3abafc98552f3b1dbf063326fa279c7c3cde41e0b6f4a11d1a8,False

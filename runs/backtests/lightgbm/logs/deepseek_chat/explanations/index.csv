@@ -1,0 +1,2 @@
+﻿date,date_dir,etf_count,has_explanations,full_response_path,summary_path,details_path,structured_path
+2025-04-11,20250411,10,True,runs/backtests/lightgbm/logs/deepseek_chat\explanations\20250411\full_response.json,runs/backtests/lightgbm/logs/deepseek_chat\explanations\20250411\summary.txt,runs/backtests/lightgbm/logs/deepseek_chat\explanations\20250411\etf_details.csv,runs/backtests/lightgbm/logs/deepseek_chat\explanations\20250411\structured_explanation.json

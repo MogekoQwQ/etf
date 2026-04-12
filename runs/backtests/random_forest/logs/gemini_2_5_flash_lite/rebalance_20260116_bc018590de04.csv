@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-01-16,512100,中证1000ETF,0.95,0.0139585543021509,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,510300,沪深300ETF,0.94,0.0121402413076879,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,510500,中证500ETF,0.93,0.0118718999976459,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,510050,上证50ETF,0.92,0.0099390790431765,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,159531,中证2000ETF,0.91,0.0089005274963163,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,159916,深F60ETF,0.9,0.0081806069460425,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,159938,医药卫生ETF,0.89,0.0071223456927536,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,515400,大数据ETF,0.88,0.0068240002427341,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,159915,创业板ETF,0.87,0.0059138723496844,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False
+2026-01-16,159883,医疗器械ETF,0.86,0.0056516702626773,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,bc018590de04d97cde46c91762d1379ace6521840067d82bfcb462c57a64f1dc,False

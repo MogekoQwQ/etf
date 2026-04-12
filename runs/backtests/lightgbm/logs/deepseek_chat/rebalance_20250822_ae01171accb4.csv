@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-08-22,512480,半导体ETF,0.9915,-0.0001117596470343,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,159781,科创创业ETF,0.948,0.0384227506106158,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,516050,科技龙头ETF,0.847,0.0229601980261711,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,159807,科技ETF,0.8465,0.055340365193862,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,159939,信息技术ETF,0.804,0.030244538290067,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,159967,创业板成长ETF,0.718,0.0021675421038785,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,159915,创业板ETF,0.7075,0.0038443260184278,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,515580,科技100ETF,0.6835,0.0070137411428231,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,515400,大数据ETF,0.6195,0.0455025190078973,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False
+2025-08-22,159852,软件ETF,0.6175,0.0096536203903509,deepseek-chat,lightgbm,Y_future_5d_return,top30_top10,30,10,ae01171accb453d216a867085abe2f0114ad6c97c0ee36e4eb49d160ec8a6966,False

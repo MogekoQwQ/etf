@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-12,159847,医疗ETF易方达,0.010663,0.0106625784546387,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,159509,纳指科技ETF,0.007757,0.0077570168427643,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,516050,科技龙头ETF,0.001989,0.0019892755344853,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,518850,黄金ETF华夏,0.001119,0.0011193426783391,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,515450,红利低波50ETF,0.000433,0.000432822558065,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,159307,红利低波100ETF,0.000244,0.0002436665344729,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,159502,标普生物科技ETF,0.000234,0.0002343134983335,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,159520,消费龙头ETF,0.0002,0.0002000545870572,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,513730,东南亚科技ETF,9.6e-05,9.629040641867164e-05,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False
+2025-12-12,159939,信息技术ETF,6.7e-05,6.705229952869214e-05,deepseek-chat,random_forest,Y_future_5d_return,default,50,10,ef69e11dfd0540c8d3f7696f2cea16c4882c8b69f8be6d999b449134697b229b,False

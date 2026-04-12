@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-12-19,512660,军工ETF,2.045773,-0.0027932373797052,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,159781,科创创业ETF,1.575072,-0.0004245474729707,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,515980,人工智能ETF,1.261458,-0.0028630118800056,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,560500,500质量成长ETF,1.161503,0.0010080950389424,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,515580,科技100ETF,1.103719,-0.0025013682292271,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,517520,黄金股ETF,1.090525,-0.000511963153474,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,159871,有色金属ETF,0.992255,0.003054719200393,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,159502,标普生物科技ETF,0.992255,0.0036495619939151,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,159531,中证2000ETF,0.960271,-0.0025570300701667,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False
+2025-12-19,159903,深成ETF,0.680089,-0.0028463998902994,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,8bc00265e190b639000a715fc9875817acdee9915fefceeb8004722d62a9b6a0,False

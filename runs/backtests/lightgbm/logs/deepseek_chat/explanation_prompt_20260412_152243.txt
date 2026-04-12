@@ -1,0 +1,34 @@
+你是一个用于 ETF 二阶段排序解释的投资研究助手。
+
+请基于已给出的 ETF 排序结果和因子信息，为每个 ETF 生成简洁解释，并同时输出结构化总结。
+
+要求：
+1. 输出必须是合法 JSON。
+2. `rankings` 中每个 ETF 都必须包含 `code`、`score`、`explanation`。
+3. `summary` 中包含 `market_context`、`key_factors`、`risk_considerations`。
+4. 不要输出 JSON 之外的文本。
+
+输出格式：
+{
+  "rankings": [
+    {"code": "510300", "score": 0.95, "explanation": "解释文本"}
+  ],
+  "summary": {
+    "market_context": "市场背景",
+    "key_factors": ["因素1", "因素2"],
+    "risk_considerations": "风险提示"
+  }
+}
+
+调仓日期: 2025-04-11
+ETF 数据:
+ETF 159502: llm_score: 0.036764, 开盘: 0.782, 收盘: 0.794, 最高: 0.796, 最低: 0.778, 成交量: 2230935.0, 成交额: 175404449.7, 振幅: 2.21, 涨跌幅: -2.7, 涨跌额: -0.022, 换手率: 16.47, momentum_20: -0.159788, volatility_20: 0.03182, volume_mean_20: 1530633.45, return_mean_20: -0.819, amplitude_mean_20: 1.198, turnover_mean_20: 11.302, MA_5: 0.7928, MA_10: 0.8409, momentum_20_cs_z: -1.87535, volatility_20_cs_z: 1.09786, volume_mean_20_cs_z: -0.315623, return_mean_20_cs_z: -1.900621, amplitude_mean_20_cs_z: -1.475089, turnover_mean_20_cs_z: 0.63417, MA_5_cs_z: -0.422281, MA_10_cs_z: -0.40495, y_pred_Y_future_5d_return: 0.036764
+ETF 159518: llm_score: 0.033482, 开盘: 0.745, 收盘: 0.761, 最高: 0.764, 最低: 0.739, 成交量: 12168770.0, 成交额: 915523394.2, 振幅: 3.13, 涨跌幅: -4.76, 涨跌额: -0.038, 换手率: 72.38, momentum_20: -0.157254, volatility_20: 0.040934, volume_mean_20: 3191973.85, return_mean_20: -0.772, amplitude_mean_20: 1.134, turnover_mean_20: 18.985, MA_5: 0.7782, MA_10: 0.8556, momentum_20_cs_z: -1.874865, volatility_20_cs_z: 2.536683, volume_mean_20_cs_z: -0.126511, return_mean_20_cs_z: -1.827344, amplitude_mean_20_cs_z: -1.571236, turnover_mean_20_cs_z: 1.624896, MA_5_cs_z: -0.43865, MA_10_cs_z: -0.389046, y_pred_Y_future_5d_return: 0.033482
+ETF 513290: llm_score: 0.031536, 开盘: 1.006, 收盘: 1.02, 最高: 1.025, 最低: 1.003, 成交量: 1126484.0, 成交额: 114292647.0, 振幅: 2.1, 涨跌幅: -2.86, 涨跌额: -0.03, 换手率: 10.95, momentum_20: -0.130435, volatility_20: 0.030271, volume_mean_20: 721589.2, return_mean_20: -0.652, amplitude_mean_20: 1.0245, turnover_mean_20: 7.0125, MA_5: 1.02, MA_10: 1.0714, momentum_20_cs_z: -1.362197, volatility_20_cs_z: 0.853429, volume_mean_20_cs_z: -0.407717, return_mean_20_cs_z: -1.382681, amplitude_mean_20_cs_z: -1.676989, turnover_mean_20_cs_z: 0.081037, MA_5_cs_z: -0.167561, MA_10_cs_z: -0.155569, y_pred_Y_future_5d_return: 0.031536
+ETF 513330: llm_score: 0.028953, 开盘: 0.449, 收盘: 0.456, 最高: 0.462, 最低: 0.444, 成交量: 129213433.0, 成交额: 5864770281.0, 振幅: 3.98, 涨跌幅: 0.88, 涨跌额: 0.004, 换手率: 16.22, momentum_20: -0.131429, volatility_20: 0.031297, volume_mean_20: 87584689.75, return_mean_20: -0.6545, amplitude_mean_20: 3.007, turnover_mean_20: 10.992, MA_5: 0.4454, MA_10: 0.4746, momentum_20_cs_z: -1.381194, volatility_20_cs_z: 1.015371, volume_mean_20_cs_z: 5.103002, return_mean_20_cs_z: -1.391945, amplitude_mean_20_cs_z: 1.24255, turnover_mean_20_cs_z: 0.594195, MA_5_cs_z: -0.811761, MA_10_cs_z: -0.801255, y_pred_Y_future_5d_return: 0.028953
+ETF 159572: llm_score: 0.025986, 开盘: 1.071, 收盘: 1.102, 最高: 1.115, 最低: 1.071, 成交量: 213982.0, 成交额: 23495447.233, 振幅: 4.06, 涨跌幅: 1.57, 涨跌额: 0.017, 换手率: 7.99, momentum_20: -0.132966, volatility_20: 0.03817, volume_mean_20: 149858.9, return_mean_20: -0.6345, amplitude_mean_20: 3.5725, turnover_mean_20: 5.598, MA_5: 1.053, MA_10: 1.1265, momentum_20_cs_z: -1.410587, volatility_20_cs_z: 2.100248, volume_mean_20_cs_z: -0.472797, return_mean_20_cs_z: -1.317834, amplitude_mean_20_cs_z: 2.092094, turnover_mean_20_cs_z: -0.101363, MA_5_cs_z: -0.130564, MA_10_cs_z: -0.095955, y_pred_Y_future_5d_return: 0.025986
+ETF 159995: llm_score: 0.024302, 开盘: 1.199, 收盘: 1.25, 最高: 1.277, 最低: 1.199, 成交量: 9479558.0, 成交额: 1175041740.607, 振幅: 6.51, 涨跌幅: 4.25, 涨跌额: 0.051, 换手率: 6.66, momentum_20: -0.039939, volatility_20: 0.027969, volume_mean_20: 5845001.0, return_mean_20: -0.1665, amplitude_mean_20: 2.897, turnover_mean_20: 4.109, MA_5: 1.1784, MA_10: 1.2071, momentum_20_cs_z: 0.367729, volatility_20_cs_z: 0.489921, volume_mean_20_cs_z: 0.175486, return_mean_20_cs_z: 0.416352, amplitude_mean_20_cs_z: 1.077298, turnover_mean_20_cs_z: -0.29337, MA_5_cs_z: 0.010026, MA_10_cs_z: -0.008753, y_pred_Y_future_5d_return: 0.024302
+ETF 513730: llm_score: 0.021819, 开盘: 1.035, 收盘: 1.063, 最高: 1.069, 最低: 1.033, 成交量: 2832293.0, 成交额: 298515587.0, 振幅: 3.34, 涨跌幅: -1.48, 涨跌额: -0.016, 换手率: 31.92, momentum_20: -0.058459, volatility_20: 0.035486, volume_mean_20: 1463071.15, return_mean_20: -0.2405, amplitude_mean_20: 1.5615, turnover_mean_20: 16.489, MA_5: 1.0286, MA_10: 1.0841, momentum_20_cs_z: 0.013696, volatility_20_cs_z: 1.676606, volume_mean_20_cs_z: -0.323313, return_mean_20_cs_z: 0.142143, amplitude_mean_20_cs_z: -0.929008, turnover_mean_20_cs_z: 1.303036, MA_5_cs_z: -0.157919, MA_10_cs_z: -0.141829, y_pred_Y_future_5d_return: 0.021819
+ETF 515050: llm_score: 0.021487, 开盘: 0.944, 收盘: 0.976, 最高: 0.988, 最低: 0.941, 成交量: 1651988.0, 成交额: 159115115.0, 振幅: 4.92, 涨跌幅: 2.2, 涨跌额: 0.021, 换手率: 4.84, momentum_20: -0.154978, volatility_20: 0.030917, volume_mean_20: 1324732.15, return_mean_20: -0.7915, amplitude_mean_20: 2.83, turnover_mean_20: 3.8805, MA_5: 0.9416, MA_10: 1.0206, momentum_20_cs_z: -1.831372, volatility_20_cs_z: 0.955331, volume_mean_20_cs_z: -0.33906, return_mean_20_cs_z: -1.899602, amplitude_mean_20_cs_z: 0.976645, turnover_mean_20_cs_z: -0.322835, MA_5_cs_z: -0.255457, MA_10_cs_z: -0.21053, y_pred_Y_future_5d_return: 0.021487
+ETF 515400: llm_score: 0.019236, 开盘: 0.833, 收盘: 0.855, 最高: 0.863, 最低: 0.833, 成交量: 1292478.0, 成交额: 109822976.0, 振幅: 3.56, 涨跌幅: 1.42, 涨跌额: 0.012, 换手率: 7.9, momentum_20: -0.143287, volatility_20: 0.027218, volume_mean_20: 1707617.8, return_mean_20: -0.734, amplitude_mean_20: 3.029, turnover_mean_20: 10.44, MA_5: 0.8284, MA_10: 0.8681, momentum_20_cs_z: -1.607872, volatility_20_cs_z: 0.371349, volume_mean_20_cs_z: -0.295476, return_mean_20_cs_z: -1.686534, amplitude_mean_20_cs_z: 1.2756, turnover_mean_20_cs_z: 0.523015, MA_5_cs_z: -0.382369, MA_10_cs_z: -0.375522, y_pred_Y_future_5d_return: 0.019236
+ETF 512480: llm_score: 0.018415, 开盘: 1.002, 收盘: 1.055, 最高: 1.079, 最低: 1.001, 成交量: 22313587.0, 成交额: 2324710351.0, 振幅: 7.76, 涨跌幅: 4.98, 涨跌额: 0.05, 换手率: 15.94, momentum_20: -0.03653, volatility_20: 0.029046, volume_mean_20: 10865491.55, return_mean_20: -0.1445, amplitude_mean_20: 3.042, turnover_mean_20: 7.765, MA_5: 0.9886, MA_10: 1.0178, momentum_20_cs_z: 0.432893, volatility_20_cs_z: 0.660057, volume_mean_20_cs_z: 0.746973, return_mean_20_cs_z: 0.497874, amplitude_mean_20_cs_z: 1.29513, turnover_mean_20_cs_z: 0.178073, MA_5_cs_z: -0.202764, MA_10_cs_z: -0.213559, y_pred_Y_future_5d_return: 0.018415

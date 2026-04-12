@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2026-02-13,159847,医疗ETF易方达,0.007497,0.0074971896753649,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,159930,能源ETF,0.004956,0.0049560793871167,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,513290,纳指生物科技ETF,0.000954,0.0009540717251005,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,517300,沪港深300ETF,0.000928,0.0009278257146542,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,513970,恒生消费ETF,0.000743,0.0007427277174643,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,510760,上证综指ETF,0.000722,0.000722258580515,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,520550,港股红利低波ETF,0.000238,0.0002376387588581,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,562320,沪深300价值ETF,0.000207,0.000207012794115,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,512100,中证1000ETF,0.000203,0.0002031132324862,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False
+2026-02-13,515220,煤炭ETE,9e-06,9.36572354814297e-06,gemini-2.5-flash-lite,random_forest,Y_future_5d_return,default,50,10,ceee5d88b6c1d6a97297625306dec151bd519cc19ab3addbf21869d0d4f1b091,False

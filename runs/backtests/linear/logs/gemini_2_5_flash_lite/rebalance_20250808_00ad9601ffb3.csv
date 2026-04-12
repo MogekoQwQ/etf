@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-08-08,510500,中证500ETF,0.997979,0.0020214054520737,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,513730,东南亚科技ETF,0.997908,-0.0020922964552094,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,159871,有色金属ETF,0.997698,-0.0023020538510225,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,159916,深F60ETF,0.996988,-0.0030124039958003,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,520500,恒生创新药ETF,0.995999,-0.0040010014859242,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,515580,科技100ETF,0.995944,-0.0040560163231354,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,159847,医疗ETF易方达,0.99579,-0.0042097777946414,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,159915,创业板ETF,0.995757,-0.0042428150600818,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,159687,亚太精选ETF,0.995302,-0.0046981523833984,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False
+2025-08-08,515050,5G通信ETF,0.995219,-0.0047806964963613,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,00ad9601ffb3678d06588a291917957a3346805649015fb7bad4ad302ac42b57,False

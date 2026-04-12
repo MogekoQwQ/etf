@@ -1,0 +1,11 @@
+date,code,name,llm_score,traditional_score,second_stage_llm,traditional_model,target,scenario_name,top_n_first,top_n_final,candidate_pool_fingerprint,cache_hit
+2025-05-09,520500,恒生创新药ETF,0.002637,-0.0026372934964432,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,513290,纳指生物科技ETF,0.000906,0.0009059740018443,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,159687,亚太精选ETF,0.000518,0.0005182260600346,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,510880,红利ETF,0.000354,0.0003537419130276,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,159691,港股红利ETF,-0.002631,-0.0026309913087714,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,513630,港股红利指数ETF,-0.002856,-0.0028560487271905,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,515080,中证红利ETF,-0.002918,-0.0029176304479538,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,510050,上证50ETF,-0.00293,-0.0029296200350663,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,159905,深红利FTE,-0.003,-0.0029995615649378,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
+2025-05-09,510300,沪深300ETF,-0.004187,-0.0041873747363994,gemini-2.5-flash-lite,linear,Y_future_5d_return,default,50,10,3a0a0db2b519e723e21f38a88ac04e921f96ae6e83dff0dda35b144a8675bd79,False
