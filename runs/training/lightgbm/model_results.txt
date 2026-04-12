@@ -1,0 +1,30 @@
+traditional_model: lightgbm
+model_label: LightGBM
+target: Y_future_5d_return
+split_date: 2025-04-09
+train_samples: 90434
+test_samples: 22499
+当前实验已启用“按日期去极值 + 横截面标准化”的增强特征。
+feature_enhancement: enabled (winsorize by date at 1%/99% + cross-sectional z-score)
+cross_sectional_feature_count: 8
+cross_sectional_feature_columns: momentum_20_cs_z, volatility_20_cs_z, volume_mean_20_cs_z, return_mean_20_cs_z, amplitude_mean_20_cs_z, turnover_mean_20_cs_z, MA_5_cs_z, MA_10_cs_z
+
+Target: Y_future_5d_return
+R^2: -0.2028, MAE: 0.0246, RMSE: 0.0339
+Top 10 features:
+               feature  importance
+     amplitude_mean_20       812.0
+amplitude_mean_20_cs_z       805.0
+         volatility_20       787.0
+ turnover_mean_20_cs_z       764.0
+      turnover_mean_20       683.0
+   volume_mean_20_cs_z       680.0
+           momentum_20       636.0
+    volatility_20_cs_z       625.0
+        volume_mean_20       619.0
+            MA_10_cs_z       591.0
+
+Ranking metrics summary (Y_future_5d_return):
+IC(mean_by_date): 0.0082, RankIC(mean_by_date): 0.0204, IC(overall): 0.0187, RankIC(overall): -0.0205
+Top10 mean target: 0.0080, Top50 mean target: 0.0064, Universe mean target: 0.0062
+Top10 excess target: 0.0018, Top50 excess target: 0.0002, Evaluated dates: 225, Evaluated rows: 22499

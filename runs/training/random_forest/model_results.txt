@@ -1,0 +1,30 @@
+traditional_model: random_forest
+model_label: RandomForest
+target: Y_future_5d_return
+split_date: 2025-04-09
+train_samples: 90434
+test_samples: 22499
+当前实验已启用“按日期去极值 + 横截面标准化”的增强特征。
+feature_enhancement: enabled (winsorize by date at 1%/99% + cross-sectional z-score)
+cross_sectional_feature_count: 8
+cross_sectional_feature_columns: momentum_20_cs_z, volatility_20_cs_z, volume_mean_20_cs_z, return_mean_20_cs_z, amplitude_mean_20_cs_z, turnover_mean_20_cs_z, MA_5_cs_z, MA_10_cs_z
+
+Target: Y_future_5d_return
+R^2: -0.1152, MAE: 0.0236, RMSE: 0.0326
+Top 10 features:
+               feature  importance
+         volatility_20    0.081480
+           momentum_20    0.074973
+amplitude_mean_20_cs_z    0.067413
+     amplitude_mean_20    0.067367
+                    振幅    0.058911
+        return_mean_20    0.056079
+                   涨跌幅    0.050838
+    volatility_20_cs_z    0.050215
+            MA_10_cs_z    0.045179
+ turnover_mean_20_cs_z    0.042286
+
+Ranking metrics summary (Y_future_5d_return):
+IC(mean_by_date): 0.0294, RankIC(mean_by_date): 0.0292, IC(overall): 0.0345, RankIC(overall): -0.0088
+Top10 mean target: 0.0095, Top50 mean target: 0.0068, Universe mean target: 0.0062
+Top10 excess target: 0.0033, Top50 excess target: 0.0006, Evaluated dates: 225, Evaluated rows: 22499

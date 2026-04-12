@@ -1,0 +1,16 @@
+{
+  "traditional_model": "lightgbm",
+  "target": "Y_future_5d_return",
+  "second_stage_llm": "deepseek-chat",
+  "scenario": "top50_top5",
+  "scenario_name": "top50_top5",
+  "data_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\data\\processed\\all_etf_factors.csv",
+  "predictions_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\data\\predictions\\lightgbm\\test_set_with_predictions.csv",
+  "llm_log_dir": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\logs\\deepseek_chat",
+  "output_dir": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\deepseek_chat\\top50_top5",
+  "top_n_first": 50,
+  "top_n_final": 5,
+  "rebalancing_freq": "W",
+  "holding_days": 5,
+  "timestamp": "2026-04-03T13:27:16"
+}

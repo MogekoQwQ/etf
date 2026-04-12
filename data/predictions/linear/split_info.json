@@ -1,0 +1,12 @@
+{
+  "traditional_model": "linear",
+  "model_label": "LinearRegression",
+  "target": "Y_future_5d_return",
+  "split_date": "2025-04-09",
+  "train_start": "2020-02-14",
+  "train_end": "2025-04-09",
+  "test_start": "2025-04-10",
+  "test_end": "2026-03-16",
+  "train_samples": 90434,
+  "test_samples": 22499
+}

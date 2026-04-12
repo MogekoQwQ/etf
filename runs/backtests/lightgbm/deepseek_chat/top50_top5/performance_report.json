@@ -1,0 +1,278 @@
+{
+  "parameters": {
+    "traditional_model": "lightgbm",
+    "target": "Y_future_5d_return",
+    "second_stage_llm": "deepseek-chat",
+    "scenario": "top50_top5",
+    "scenario_name": "top50_top5",
+    "top_n_first": 50,
+    "top_n_final": 5,
+    "rebalancing_freq": "W",
+    "holding_days": 5,
+    "llm_config_path": "config/llm_config.local.yaml",
+    "llm_log_dir": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\logs\\deepseek_chat",
+    "benchmark_output_paths": {
+      "hs300_etf": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\hs300_etf\\backtest_results.csv",
+      "equal_weight": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\equal_weight\\backtest_results.csv",
+      "single_factor_momentum_20": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\single_factor_momentum_20\\backtest_results.csv"
+    },
+    "benchmark_output_paths_legacy_shared": {
+      "hs300_etf": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\benchmarks\\top50_top5\\hs300_etf\\backtest_results.csv",
+      "equal_weight": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\benchmarks\\top50_top5\\equal_weight\\backtest_results.csv",
+      "single_factor_momentum_20": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\benchmarks\\top50_top5\\single_factor_momentum_20\\backtest_results.csv"
+    },
+    "benchmark_metrics_paths": {
+      "hs300_etf": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\hs300_etf\\benchmark_metrics.json",
+      "equal_weight": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\equal_weight\\benchmark_metrics.json",
+      "single_factor_momentum_20": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\single_factor_momentum_20\\benchmark_metrics.json"
+    },
+    "benchmark_name": "沪深300ETF",
+    "benchmark_code": "510300",
+    "simple_rule_benchmark_factor": "momentum_20",
+    "benchmark_factor_candidates": [
+      "momentum_20",
+      "return_mean_20"
+    ],
+    "transaction_cost_rate": 0.001,
+    "slippage_rate": 0.0005,
+    "use_llm": true,
+    "mock_llm": false,
+    "enable_explanations": false,
+    "explanation_date": null,
+    "explanation_sample_size": 3,
+    "selected_explanation_dates": [],
+    "generated_explanation_dates": [],
+    "generated_explanations_count": 0,
+    "llm_timeout": null,
+    "predictions_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\data\\predictions\\lightgbm\\test_set_with_predictions.csv",
+    "output_dir": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\deepseek_chat\\top50_top5",
+    "turnover_summary_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\deepseek_chat\\top50_top5\\turnover_summary.csv",
+    "backtest_results_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\deepseek_chat\\top50_top5\\backtest_results.csv"
+  },
+  "performance_strategy_a": {
+    "cumulative_return": 0.38152599590688085,
+    "annual_return": 0.424315252301527,
+    "annual_volatility": 0.2085573947025035,
+    "sharpe_ratio": 2.0345250903560195,
+    "max_drawdown": -0.12842249092476032,
+    "win_rate": 0.673469387755102,
+    "total_periods": 49,
+    "mean_return": 0.007042363647100692,
+    "std_return": 0.029377194914652568
+  },
+  "performance_strategy_b": {
+    "cumulative_return": 0.4224658564907757,
+    "annual_return": 0.4691284752326046,
+    "annual_volatility": 0.21318841248672823,
+    "sharpe_ratio": 2.2005345870372275,
+    "max_drawdown": -0.12597225187845218,
+    "win_rate": 0.6938775510204082,
+    "total_periods": 49,
+    "mean_return": 0.0076615288526975306,
+    "std_return": 0.030029515645329394
+  },
+  "performance_strategy_a_net": {
+    "cumulative_return": 0.3127467941237485,
+    "annual_return": 0.35157043402550037,
+    "annual_volatility": 0.20884925100267032,
+    "sharpe_ratio": 1.6833693792897788,
+    "max_drawdown": -0.1322231307706352,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.005995424871590487,
+    "std_return": 0.029418305513628455
+  },
+  "performance_strategy_b_net": {
+    "cumulative_return": 0.35136861872410985,
+    "annual_return": 0.3937125175470939,
+    "annual_volatility": 0.21316108872309122,
+    "sharpe_ratio": 1.8470187026420644,
+    "max_drawdown": -0.1291185286915666,
+    "win_rate": 0.673469387755102,
+    "total_periods": 49,
+    "mean_return": 0.006608467628207736,
+    "std_return": 0.030025666846147225
+  },
+  "performance_market_benchmark": {
+    "cumulative_return": 0.2618337546134133,
+    "annual_return": 0.2808491242197795,
+    "annual_volatility": 0.1303983511878637,
+    "sharpe_ratio": 2.1537781855474747,
+    "max_drawdown": -0.08769638928209045,
+    "win_rate": 0.5918367346938775,
+    "total_periods": 49,
+    "mean_return": 0.004923254911640363,
+    "std_return": 0.01836778688600105
+  },
+  "performance_market_benchmark_net": {
+    "cumulative_return": 0.2599580604454059,
+    "annual_return": 0.2788841174025145,
+    "annual_volatility": 0.13035684974938522,
+    "sharpe_ratio": 2.139389820624518,
+    "max_drawdown": -0.08769638928209056,
+    "win_rate": 0.5918367346938775,
+    "total_periods": 49,
+    "mean_return": 0.004892642666742404,
+    "std_return": 0.018361941033116478
+  },
+  "performance_benchmark_equal_weight": {
+    "cumulative_return": 0.2832555894118207,
+    "annual_return": 0.30606299976245066,
+    "annual_volatility": 0.14614326736552385,
+    "sharpe_ratio": 2.094266847045004,
+    "max_drawdown": -0.11309008570523982,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.005312020690758813,
+    "std_return": 0.020585600702316607
+  },
+  "performance_benchmark_equal_weight_net": {
+    "cumulative_return": 0.2813383578770863,
+    "annual_return": 0.3040600854997437,
+    "annual_volatility": 0.14616541931718718,
+    "sharpe_ratio": 2.0802463874161385,
+    "max_drawdown": -0.11309008570523982,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.005281408445860853,
+    "std_return": 0.020588721005016408
+  },
+  "performance_benchmark_simple_rule": {
+    "cumulative_return": 0.8321351505623433,
+    "annual_return": 0.9371383822561046,
+    "annual_volatility": 0.2838556103194827,
+    "sharpe_ratio": 3.301461546598796,
+    "max_drawdown": -0.14068835848909367,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.013205717569714427,
+    "std_return": 0.03998362946501177
+  },
+  "performance_benchmark_simple_rule_net": {
+    "cumulative_return": 0.7780453727129477,
+    "annual_return": 0.8784423954129135,
+    "annual_volatility": 0.2838970511106262,
+    "sharpe_ratio": 3.0942286718949075,
+    "max_drawdown": -0.1451675646345293,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.01258735022277565,
+    "std_return": 0.03998946677517081
+  },
+  "benchmarks": {
+    "hs300_etf": {
+      "parameters": {
+        "traditional_model": "lightgbm",
+        "benchmark_name": "hs300_etf",
+        "benchmark_label": "沪深300ETF",
+        "benchmark_name_display": "沪深300ETF",
+        "benchmark_code": "510300",
+        "scenario": "top50_top5",
+        "scenario_name": "top50_top5",
+        "top_n_first": 50,
+        "top_n_final": 5,
+        "rebalancing_freq": "W",
+        "holding_days": 5,
+        "backtest_results_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\hs300_etf\\backtest_results.csv"
+      },
+      "performance": {
+        "cumulative_return": 0.2618337546134133,
+        "annual_return": 0.2808491242197795,
+        "annual_volatility": 0.1303983511878637,
+        "sharpe_ratio": 2.1537781855474747,
+        "max_drawdown": -0.08769638928209045,
+        "win_rate": 0.5918367346938775,
+        "total_periods": 49,
+        "mean_return": 0.004923254911640363,
+        "std_return": 0.01836778688600105
+      },
+      "performance_net": {
+        "cumulative_return": 0.2599580604454059,
+        "annual_return": 0.2788841174025145,
+        "annual_volatility": 0.13035684974938522,
+        "sharpe_ratio": 2.139389820624518,
+        "max_drawdown": -0.08769638928209056,
+        "win_rate": 0.5918367346938775,
+        "total_periods": 49,
+        "mean_return": 0.004892642666742404,
+        "std_return": 0.018361941033116478
+      }
+    },
+    "equal_weight": {
+      "parameters": {
+        "traditional_model": "lightgbm",
+        "benchmark_name": "equal_weight",
+        "benchmark_label": "样本池等权ETF组合",
+        "benchmark_name_display": "样本池等权ETF组合",
+        "benchmark_code": "",
+        "scenario": "top50_top5",
+        "scenario_name": "top50_top5",
+        "top_n_first": 50,
+        "top_n_final": 5,
+        "rebalancing_freq": "W",
+        "holding_days": 5,
+        "backtest_results_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\equal_weight\\backtest_results.csv"
+      },
+      "performance": {
+        "cumulative_return": 0.2832555894118207,
+        "annual_return": 0.30606299976245066,
+        "annual_volatility": 0.14614326736552385,
+        "sharpe_ratio": 2.094266847045004,
+        "max_drawdown": -0.11309008570523982,
+        "win_rate": 0.6530612244897959,
+        "total_periods": 49,
+        "mean_return": 0.005312020690758813,
+        "std_return": 0.020585600702316607
+      },
+      "performance_net": {
+        "cumulative_return": 0.2813383578770863,
+        "annual_return": 0.3040600854997437,
+        "annual_volatility": 0.14616541931718718,
+        "sharpe_ratio": 2.0802463874161385,
+        "max_drawdown": -0.11309008570523982,
+        "win_rate": 0.6530612244897959,
+        "total_periods": 49,
+        "mean_return": 0.005281408445860853,
+        "std_return": 0.020588721005016408
+      }
+    },
+    "single_factor_momentum_20": {
+      "parameters": {
+        "traditional_model": "lightgbm",
+        "benchmark_name": "single_factor_momentum_20",
+        "benchmark_label": "单因子规则基准",
+        "benchmark_name_display": "单因子规则基准",
+        "benchmark_code": "",
+        "scenario": "top50_top5",
+        "scenario_name": "top50_top5",
+        "top_n_first": 50,
+        "top_n_final": 5,
+        "rebalancing_freq": "W",
+        "holding_days": 5,
+        "backtest_results_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\single_factor_momentum_20\\backtest_results.csv"
+      },
+      "performance": {
+        "cumulative_return": 0.8321351505623433,
+        "annual_return": 0.9371383822561046,
+        "annual_volatility": 0.2838556103194827,
+        "sharpe_ratio": 3.301461546598796,
+        "max_drawdown": -0.14068835848909367,
+        "win_rate": 0.6530612244897959,
+        "total_periods": 49,
+        "mean_return": 0.013205717569714427,
+        "std_return": 0.03998362946501177
+      },
+      "performance_net": {
+        "cumulative_return": 0.7780453727129477,
+        "annual_return": 0.8784423954129135,
+        "annual_volatility": 0.2838970511106262,
+        "sharpe_ratio": 3.0942286718949075,
+        "max_drawdown": -0.1451675646345293,
+        "win_rate": 0.6530612244897959,
+        "total_periods": 49,
+        "mean_return": 0.01258735022277565,
+        "std_return": 0.03998946677517081
+      }
+    }
+  }
+}

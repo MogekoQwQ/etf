@@ -1,0 +1,38 @@
+{
+  "parameters": {
+    "traditional_model": "linear",
+    "benchmark_name": "equal_weight",
+    "benchmark_label": "样本池等权ETF组合",
+    "benchmark_name_display": "样本池等权ETF组合",
+    "benchmark_code": "",
+    "scenario": "default",
+    "scenario_name": "default",
+    "top_n_first": 50,
+    "top_n_final": 10,
+    "rebalancing_freq": "W",
+    "holding_days": 5,
+    "backtest_results_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\linear\\benchmarks\\default\\equal_weight\\backtest_results.csv"
+  },
+  "performance": {
+    "cumulative_return": 0.2832555894118207,
+    "annual_return": 0.30606299976245066,
+    "annual_volatility": 0.14614326736552385,
+    "sharpe_ratio": 2.094266847045004,
+    "max_drawdown": -0.11309008570523982,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.005312020690758813,
+    "std_return": 0.020585600702316607
+  },
+  "performance_net": {
+    "cumulative_return": 0.2813383578770863,
+    "annual_return": 0.3040600854997437,
+    "annual_volatility": 0.14616541931718718,
+    "sharpe_ratio": 2.0802463874161385,
+    "max_drawdown": -0.11309008570523982,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.005281408445860853,
+    "std_return": 0.020588721005016408
+  }
+}

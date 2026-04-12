@@ -1,0 +1,7 @@
+summary_output_dir: experiments/summary
+snapshot_root: experiments/snapshots/exp_main
+default_models:
+  - random_forest
+  - linear
+  - lightgbm
+  - xgboost

@@ -1,0 +1,30 @@
+traditional_model: xgboost
+model_label: XGBoost
+target: Y_future_5d_return
+split_date: 2025-04-09
+train_samples: 90434
+test_samples: 22499
+当前实验已启用“按日期去极值 + 横截面标准化”的增强特征。
+feature_enhancement: enabled (winsorize by date at 1%/99% + cross-sectional z-score)
+cross_sectional_feature_count: 8
+cross_sectional_feature_columns: momentum_20_cs_z, volatility_20_cs_z, volume_mean_20_cs_z, return_mean_20_cs_z, amplitude_mean_20_cs_z, turnover_mean_20_cs_z, MA_5_cs_z, MA_10_cs_z
+
+Target: Y_future_5d_return
+R^2: -0.2794, MAE: 0.0255, RMSE: 0.0349
+Top 10 features:
+               feature  importance
+                 MA_10    0.074283
+            MA_10_cs_z    0.059958
+                  MA_5    0.056169
+             MA_5_cs_z    0.053204
+           momentum_20    0.050611
+        return_mean_20    0.048535
+         volatility_20    0.047974
+                   换手率    0.040399
+ turnover_mean_20_cs_z    0.037576
+amplitude_mean_20_cs_z    0.037221
+
+Ranking metrics summary (Y_future_5d_return):
+IC(mean_by_date): 0.0229, RankIC(mean_by_date): 0.0255, IC(overall): 0.0178, RankIC(overall): -0.0169
+Top10 mean target: 0.0081, Top50 mean target: 0.0065, Universe mean target: 0.0062
+Top10 excess target: 0.0019, Top50 excess target: 0.0003, Evaluated dates: 225, Evaluated rows: 22499

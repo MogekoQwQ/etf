@@ -1,0 +1,16 @@
+{
+  "traditional_model": "linear",
+  "target": "Y_future_5d_return",
+  "second_stage_llm": "gemini-2.5-flash-lite",
+  "scenario": "default",
+  "scenario_name": "default",
+  "data_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\data\\processed\\all_etf_factors.csv",
+  "predictions_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\data\\predictions\\linear\\test_set_with_predictions.csv",
+  "llm_log_dir": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\linear\\logs\\gemini_2_5_flash_lite",
+  "output_dir": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\linear\\gemini_2_5_flash_lite\\default",
+  "top_n_first": 50,
+  "top_n_final": 10,
+  "rebalancing_freq": "W",
+  "holding_days": 5,
+  "timestamp": "2026-04-03T13:26:56"
+}

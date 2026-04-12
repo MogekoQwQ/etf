@@ -1,0 +1,38 @@
+{
+  "parameters": {
+    "traditional_model": "lightgbm",
+    "benchmark_name": "single_factor_momentum_20",
+    "benchmark_label": "单因子规则基准",
+    "benchmark_name_display": "单因子规则基准",
+    "benchmark_code": "",
+    "scenario": "top50_top5",
+    "scenario_name": "top50_top5",
+    "top_n_first": 50,
+    "top_n_final": 5,
+    "rebalancing_freq": "W",
+    "holding_days": 5,
+    "backtest_results_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\top50_top5\\single_factor_momentum_20\\backtest_results.csv"
+  },
+  "performance": {
+    "cumulative_return": 0.8321351505623433,
+    "annual_return": 0.9371383822561046,
+    "annual_volatility": 0.2838556103194827,
+    "sharpe_ratio": 3.301461546598796,
+    "max_drawdown": -0.14068835848909367,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.013205717569714427,
+    "std_return": 0.03998362946501177
+  },
+  "performance_net": {
+    "cumulative_return": 0.7780453727129477,
+    "annual_return": 0.8784423954129135,
+    "annual_volatility": 0.2838970511106262,
+    "sharpe_ratio": 3.0942286718949075,
+    "max_drawdown": -0.1451675646345293,
+    "win_rate": 0.6530612244897959,
+    "total_periods": 49,
+    "mean_return": 0.01258735022277565,
+    "std_return": 0.03998946677517081
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parameters": {
+    "traditional_model": "lightgbm",
+    "benchmark_name": "hs300_etf",
+    "benchmark_label": "沪深300ETF",
+    "benchmark_name_display": "沪深300ETF",
+    "benchmark_code": "510300",
+    "scenario": "default",
+    "scenario_name": "default",
+    "top_n_first": 50,
+    "top_n_final": 10,
+    "rebalancing_freq": "W",
+    "holding_days": 5,
+    "backtest_results_path": "D:\\Workspace\\vsCodeWorkspace\\etf-main\\runs\\backtests\\lightgbm\\benchmarks\\default\\hs300_etf\\backtest_results.csv"
+  },
+  "performance": {
+    "cumulative_return": 0.2618337546134133,
+    "annual_return": 0.2808491242197795,
+    "annual_volatility": 0.1303983511878637,
+    "sharpe_ratio": 2.1537781855474747,
+    "max_drawdown": -0.08769638928209045,
+    "win_rate": 0.5918367346938775,
+    "total_periods": 49,
+    "mean_return": 0.004923254911640363,
+    "std_return": 0.01836778688600105
+  },
+  "performance_net": {
+    "cumulative_return": 0.2599580604454059,
+    "annual_return": 0.2788841174025145,
+    "annual_volatility": 0.13035684974938522,
+    "sharpe_ratio": 2.139389820624518,
+    "max_drawdown": -0.08769638928209056,
+    "win_rate": 0.5918367346938775,
+    "total_periods": 49,
+    "mean_return": 0.004892642666742404,
+    "std_return": 0.018361941033116478
+  }
+}

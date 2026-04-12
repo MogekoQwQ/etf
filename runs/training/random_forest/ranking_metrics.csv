@@ -1,0 +1,2 @@
+target,prediction_col,evaluated_dates,evaluated_rows,overall_ic,overall_rank_ic,ic,rank_ic,universe_mean_target,top10_mean_target,top50_mean_target,top10_excess_target,top50_excess_target
+Y_future_5d_return,y_pred_Y_future_5d_return,225,22499,0.034453588698974136,-0.008785910706048826,0.02935661865313161,0.029211435294206348,0.00618108782852358,0.009493536703785194,0.006827861681256491,0.0033124488752616157,0.0006467738527329096
