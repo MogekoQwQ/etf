@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import datetime
 import json
 import os
@@ -1003,14 +1004,343 @@ def process_rebalancing_dates(
     return summary_df
 
 
-if __name__ == "__main__":
-    process_rebalancing_dates(
-        data_path="./data/processed/all_etf_factors.csv",
-        output_dir="./runs/backtests/<traditional_model>/logs/deepseek_chat",
-        target="Y_future_5d_return",
-        top_n_first=50,
-        top_n_final=10,
-        rebalancing_freq="W",
-        start_date="2023-01-01",
-        end_date="2024-12-31",
+def _normalize_cli_date(date_text: str) -> str:
+    return pd.to_datetime(date_text).strftime("%Y-%m-%d")
+
+
+def _load_cli_dataframe(data_path: str) -> tuple[pd.DataFrame, str]:
+    df = read_csv_with_fallback(data_path)
+    df = standardize_date_column_name(df)
+    date_column = _resolve_date_column(df)
+    if date_column is None:
+        raise ValueError(f"Date column is missing from the input dataset: {data_path}")
+
+    df[date_column] = pd.to_datetime(df[date_column], errors="coerce")
+    df = df.dropna(subset=[date_column]).copy()
+    if "code" in df.columns:
+        df["code"] = df["code"].astype(str)
+    return df, date_column
+
+
+def _select_cli_day_data(
+    df: pd.DataFrame,
+    date_column: str,
+    date_text: str,
+) -> tuple[pd.DataFrame, str]:
+    normalized_date = _normalize_cli_date(date_text)
+    date_value = pd.Timestamp(normalized_date)
+    day_data = df[df[date_column].dt.normalize() == date_value].copy()
+    return day_data, normalized_date
+
+
+def _load_single_date_candidate_pool(
+    data_path: str,
+    date_text: str,
+    target: str,
+    top_n_first: int,
+) -> tuple[pd.DataFrame, str, str]:
+    df, date_column = _load_cli_dataframe(data_path)
+    day_data, normalized_date = _select_cli_day_data(df, date_column, date_text)
+    if day_data.empty:
+        raise ValueError(f"No rows found for date {normalized_date} in {data_path}")
+
+    pred_col = f"y_pred_{target}"
+    if pred_col not in day_data.columns:
+        raise ValueError(f"Prediction column is missing: {pred_col}")
+    if len(day_data) < top_n_first:
+        raise ValueError(
+            f"Not enough ETF rows on {normalized_date}: required {top_n_first}, found {len(day_data)}"
+        )
+
+    top_etfs = day_data.sort_values(pred_col, ascending=False).head(top_n_first).copy()
+    return top_etfs, normalized_date, pred_col
+
+
+def _load_existing_rerank_file(
+    input_file: str,
+    date_text: str,
+) -> pd.DataFrame:
+    reranked_df = read_csv_with_fallback(input_file)
+    reranked_df = standardize_date_column_name(reranked_df)
+    if "code" not in reranked_df.columns:
+        raise ValueError(f"`code` column is missing from the rerank input file: {input_file}")
+
+    reranked_df["code"] = reranked_df["code"].astype(str)
+    date_column = _resolve_date_column(reranked_df)
+    if date_column:
+        reranked_df[date_column] = pd.to_datetime(reranked_df[date_column], errors="coerce")
+        reranked_df = reranked_df[
+            reranked_df[date_column].dt.normalize() == pd.Timestamp(_normalize_cli_date(date_text))
+        ].copy()
+
+    if reranked_df.empty:
+        raise ValueError(f"No rerank rows found for date {_normalize_cli_date(date_text)} in {input_file}")
+    if "llm_score" not in reranked_df.columns:
+        raise ValueError(f"`llm_score` column is missing from the rerank input file: {input_file}")
+    return reranked_df
+
+
+def _build_explanation_input_for_date(
+    data_path: str,
+    date_text: str,
+    top_n_final: int,
+    input_file: Optional[str] = None,
+) -> tuple[pd.DataFrame, str]:
+    df, date_column = _load_cli_dataframe(data_path)
+    day_data, normalized_date = _select_cli_day_data(df, date_column, date_text)
+    if day_data.empty:
+        raise ValueError(f"No rows found for date {normalized_date} in {data_path}")
+
+    if input_file:
+        reranked_df = _load_existing_rerank_file(input_file, normalized_date)
+        explanation_input = day_data.merge(
+            reranked_df[["code", "llm_score"]],
+            on="code",
+            how="inner",
+        )
+        if explanation_input.empty:
+            raise ValueError(
+                f"No overlapping ETF codes found between {data_path} and rerank input {input_file} "
+                f"for date {normalized_date}"
+            )
+        explanation_input = explanation_input.sort_values("llm_score", ascending=False).head(top_n_final).copy()
+        return explanation_input, normalized_date
+
+    if "llm_score" not in day_data.columns:
+        raise ValueError(
+            "Explanation mode requires either `--input-file` with saved rerank results "
+            "or a `--data-path` dataset that already contains `llm_score`."
+        )
+
+    explanation_input = day_data.sort_values("llm_score", ascending=False).head(top_n_final).copy()
+    return explanation_input, normalized_date
+
+
+def _save_single_date_rerank_result(
+    ranked_etfs: pd.DataFrame,
+    date_text: str,
+    output_dir: str,
+    pred_col: str,
+    llm_model: str,
+    top_n_final: int,
+) -> str:
+    os.makedirs(output_dir, exist_ok=True)
+    normalized_date = _normalize_cli_date(date_text)
+    final_etfs = ranked_etfs.head(top_n_final).copy()
+    result_df = pd.DataFrame(
+        {
+            "date": normalized_date,
+            "code": final_etfs["code"].astype(str),
+            "name": final_etfs["name"] if "name" in final_etfs.columns else "",
+            "llm_score": final_etfs["llm_score"],
+            "traditional_score": final_etfs[pred_col] if pred_col in final_etfs.columns else np.nan,
+            "second_stage_llm": llm_model,
+        }
     )
+    output_path = os.path.join(output_dir, f"rebalance_{normalized_date.replace('-', '')}.csv")
+    result_df.to_csv(output_path, index=False, encoding="utf-8-sig")
+    return output_path
+
+
+def build_cli_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="LLM ETF reranking and explanation utilities.")
+    parser.add_argument(
+        "--mode",
+        choices=("bulk", "rerank", "explain", "rerank-and-explain"),
+        default="bulk",
+        help="Execution mode: bulk rebalancing, single-date rerank, single-date explain, or both.",
+    )
+    parser.add_argument(
+        "--data-path",
+        type=str,
+        default="./data/processed/all_etf_factors.csv",
+        help="Input dataset path. Single-date rerank expects stage-one prediction columns here.",
+    )
+    parser.add_argument(
+        "--input-file",
+        type=str,
+        default=None,
+        help="Optional saved rerank file for explanation mode, e.g. rebalance_YYYYMMDD.csv.",
+    )
+    parser.add_argument(
+        "--output-dir",
+        "--log-dir",
+        dest="output_dir",
+        type=str,
+        default=f"./runs/llm_ranking_logs/{DEFAULT_LLM_MODEL.replace('-', '_').replace('.', '_')}",
+        help="Directory for prompts, responses, rerank outputs, and explanation artifacts.",
+    )
+    parser.add_argument("--target", type=str, default="Y_future_5d_return", help="Prediction target column suffix.")
+    parser.add_argument("--top-n-first", type=int, default=50, help="Stage-one candidate pool size.")
+    parser.add_argument("--top-n-final", type=int, default=10, help="Final reranked ETF count.")
+    parser.add_argument(
+        "--rebalancing-freq",
+        type=str,
+        default="W",
+        choices=("D", "W", "M"),
+        help="Bulk mode rebalance frequency.",
+    )
+    parser.add_argument("--start-date", type=str, default=None, help="Bulk mode start date.")
+    parser.add_argument("--end-date", type=str, default=None, help="Bulk mode end date.")
+    parser.add_argument("--date", type=str, default=None, help="Single-date mode target date: YYYY-MM-DD.")
+    parser.add_argument(
+        "--enable-explanations",
+        action="store_true",
+        help="Bulk mode: generate explanations for selected rebalance dates.",
+    )
+    parser.add_argument("--mock", action="store_true", help="Use mock ranking/explanation instead of calling LLM APIs.")
+    parser.add_argument("--api-timeout", type=int, default=None, help="LLM API timeout in seconds.")
+    parser.add_argument(
+        "--llm-model",
+        type=str,
+        default=DEFAULT_LLM_MODEL,
+        choices=SUPPORTED_LLM_MODELS,
+        help="Second-stage LLM model.",
+    )
+    parser.add_argument(
+        "--llm-config",
+        type=str,
+        default=DEFAULT_LLM_CONFIG_PATH,
+        help="Path to local LLM configuration file.",
+    )
+    return parser
+
+
+def main() -> int:
+    parser = build_cli_parser()
+    args = parser.parse_args()
+
+    if args.top_n_first <= 0:
+        parser.error("--top-n-first must be a positive integer.")
+    if args.top_n_final <= 0:
+        parser.error("--top-n-final must be a positive integer.")
+    if args.top_n_final > args.top_n_first:
+        parser.error("--top-n-final cannot be greater than --top-n-first.")
+    if args.mode != "bulk" and not args.date:
+        parser.error("--date is required for single-date modes.")
+
+    if args.mode == "bulk":
+        summary_df = process_rebalancing_dates(
+            data_path=args.data_path,
+            output_dir=args.output_dir,
+            target=args.target,
+            top_n_first=args.top_n_first,
+            top_n_final=args.top_n_final,
+            rebalancing_freq=args.rebalancing_freq,
+            start_date=args.start_date,
+            end_date=args.end_date,
+            enable_explanations=args.enable_explanations,
+            mock=args.mock,
+            api_timeout=args.api_timeout,
+            llm_model=args.llm_model,
+            config_path=args.llm_config,
+        )
+        return 0 if summary_df is not None else 1
+
+    if args.mode == "rerank":
+        top_etfs, normalized_date, pred_col = _load_single_date_candidate_pool(
+            data_path=args.data_path,
+            date_text=args.date,
+            target=args.target,
+            top_n_first=args.top_n_first,
+        )
+        ranked = rank_etfs_by_llm(
+            top_etfs,
+            normalized_date,
+            log_dir=args.output_dir,
+            enable_explanations=False,
+            mock=args.mock,
+            top_n_final=args.top_n_final,
+            score_reference_col=pred_col,
+            api_timeout=args.api_timeout,
+            llm_model=args.llm_model,
+            config_path=args.llm_config,
+        )
+        if ranked is None:
+            return 1
+        output_path = _save_single_date_rerank_result(
+            ranked_etfs=ranked,
+            date_text=normalized_date,
+            output_dir=args.output_dir,
+            pred_col=pred_col,
+            llm_model=args.llm_model,
+            top_n_final=args.top_n_final,
+        )
+        print(f"Saved rerank result: {output_path}")
+        return 0
+
+    if args.mode == "explain":
+        explanation_input, normalized_date = _build_explanation_input_for_date(
+            data_path=args.data_path,
+            date_text=args.date,
+            top_n_final=args.top_n_final,
+            input_file=args.input_file,
+        )
+        explained = generate_explanations_for_date(
+            explanation_input,
+            normalized_date,
+            log_dir=args.output_dir,
+            mock=args.mock,
+            api_timeout=args.api_timeout,
+            llm_model=args.llm_model,
+            config_path=args.llm_config,
+        )
+        if explained is None:
+            return 1
+        print(
+            "Saved explanation artifacts: "
+            f"{os.path.join(args.output_dir, 'explanations', normalized_date.replace('-', ''))}"
+        )
+        return 0
+
+    top_etfs, normalized_date, pred_col = _load_single_date_candidate_pool(
+        data_path=args.data_path,
+        date_text=args.date,
+        target=args.target,
+        top_n_first=args.top_n_first,
+    )
+    ranked = rank_etfs_by_llm(
+        top_etfs,
+        normalized_date,
+        log_dir=args.output_dir,
+        enable_explanations=False,
+        mock=args.mock,
+        top_n_final=args.top_n_final,
+        score_reference_col=pred_col,
+        api_timeout=args.api_timeout,
+        llm_model=args.llm_model,
+        config_path=args.llm_config,
+    )
+    if ranked is None:
+        return 1
+
+    output_path = _save_single_date_rerank_result(
+        ranked_etfs=ranked,
+        date_text=normalized_date,
+        output_dir=args.output_dir,
+        pred_col=pred_col,
+        llm_model=args.llm_model,
+        top_n_final=args.top_n_final,
+    )
+    explained = generate_explanations_for_date(
+        ranked.head(args.top_n_final).copy(),
+        normalized_date,
+        log_dir=args.output_dir,
+        mock=args.mock,
+        api_timeout=args.api_timeout,
+        llm_model=args.llm_model,
+        config_path=args.llm_config,
+    )
+    if explained is None:
+        return 1
+
+    print(f"Saved rerank result: {output_path}")
+    print(
+        "Saved explanation artifacts: "
+        f"{os.path.join(args.output_dir, 'explanations', normalized_date.replace('-', ''))}"
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
